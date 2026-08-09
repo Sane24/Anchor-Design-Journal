@@ -1,0 +1,546 @@
+Anchor: Steady the Day
+Madison Lee
+madison.bryna@berkeley.edu
+University of California, Berkeley
+Berkeley, California, USA
+Na Mi Kim
+nami_kim0401@berkeley.edu
+University of California, Berkeley
+Berkeley, California, USA
+Reed Yalouh
+yalouh@berkeley.edu
+University of California, Berkeley
+Berkeley, California, USA
+Sampurn Bhowmick
+sampurn.bhowmick@berkeley.edu
+University of California, Berkeley
+Berkeley, California, USA
+Thanhbinh Nguyen
+thanhbinh@berkeley.edu
+University of California, Berkeley
+Berkeley, California, USA
+Abstract
+Students and young adults managing mental health chal-
+lenges such as ADHD, anxiety, and depression often struggle
+not with planning or organization, but with initiation: the
+moment of beginning an already-understood task. Through
+needfinding interviews with seven participants, we found
+that existing productivity tools address the wrong problem.
+They help users organize what they already know they need
+to do, but do little to lower the barrier to starting.
+We designed and built Anchor, a mobile-first web appli-
+cation that consolidates scattered obligations from Google
+Calendar and Gmail into a single, bounded daily plan of three
+tasks, each paired with a small, concrete first step. Anchor
+closes the loop from a morning briefing through a focus timer
+to an evening reflection, with unfinished work automatically
+carried forward rather than lost.
+We iterated across low- and high-fidelity prototypes, in-
+corporating feedback from twelve participants across paper
+and Figma prototype testing, before implementing a func-
+tional version using React, Supabase, and the Google Calen-
+dar and Gmail APIs. This paper documents our full design
+process from needfinding through evaluation and outlines
+our planned next iteration.
+CCS Concepts: • Human-centered computing → Usabil-
+ity testing; User studies.
+Keywords: task initiation, procrastination, ADHD, anxiety,
+depression, morning briefing, focus timer, reflection
+1 Introduction
+For many students and young professionals who suffer from
+mental issues like ADHD, anxiety, depression, or any similar
+struggles, the hardest part of completing tasks is not doing it,
+it is starting to do it. Our needfinding aligned and echoed this
+sharply: a participant had every prerequisite ready for a year
+(number found, script written, insurance card saved) and
+still couldn’t begin because the task had no bounded start or
+end. Another participant has no problem finishing the tasks
+as soon as he starts working, but the mental health struggle
+and preparation involved often force him to delay starting
+until the last minute. The barrier our participants are facing
+is initiation, which is accelerated by modern day obligations
+with scattered deadlines across email, calendars, and chats.
+All of these combined with ambiguous task requirements
+easily convey a sense of anxiety that makes it difficult to
+start the task.
+This paper introduces Anchor, an application that is built
+to help you in these times of decision fatigue. Instead of be-
+ing overwhelmed with listing your endless amount of tasks
+and having them lost after, Anchor operates on a simple,
+grounded philosophy: you will steady the day by limiting
+your daily focus to 3 core tasks, or what we like to call, “An-
+chors.” As you constrain your daily targets to what matters
+most on the current day, Anchor will break the paralysis of
+what to start, reduce cognitive overload, and help turn your
+stressful and chaotic study sessions into calm, intentional
+progress.
+Anchor was developed by a five-person team, Hi-Five
+Senses, across the COMPSCI 160 summer course at UC Berke-
+ley in 6 weeks. A consistent tension, initiation, stood out
+throughout the process of needfinding, lo-fi prototyping,
+hi-fi prototyping, implementation, and user evaluation.
+2 Needfinding
+We are redesigning the experience of starting and complet-
+ing work for people with mental health challenges such as
+ADHD, anxiety, or depression. Our focus is on how people
+regulate focus, motivation, and emotions through virtual
+systems, physical spaces, and personal routines, and how
+these supports can be improved to reduce overwhelm and
+make progress feel more achievable.
+2.1 Participants and POV Statements
+We recruited non-CS 160 students and recent graduates with
+ADHD, anxiety, depression, or similar mental health chal-
+lenges. These participants were chosen because they regu-
+larly navigate demanding work and school responsibilities
+while managing their mental health, which makes them rep-
+resentative of the users we hope to support. We finished
+observation and interview sessions: a high school student
+with a busy schedule, a fourth-year math major student with
+ADHD and depression, a recent graduate and new software
+
+-- 1 of 7 --
+
+CS 160 ’26, Summer 2026, UC Berkeley Bhowmick et al.
+engineer with self-diagnosed anxiety, a recent electrical en-
+gineering graduate with anxiety, a senior with OCPD and
+ADHD in a dual-degree program, a fourth-year environmen-
+tal economics student juggling coursework, research, and
+an internship; and a senior balancing two remote jobs and a
+class.
+2.2 Methods
+During each session, we observed how participants began
+working on a real work or study task in their natural envi-
+ronment. Some participants allowed us to take notes on their
+home work space. We then conducted semi-structured in-
+terviews around their productivity habits, challenges when
+starting and completing tasks, sources of stress, and strate-
+gies and tools they use to stay organized. We paid extra
+attention to their workarounds, breakdowns, their current
+methods, and the reason behind how the current methods
+fail.
+2.3 Findings
+The pattern gradually emerged by synthesizing point-of-
+view statements across the seven sessions. The gap is having
+difficulty starting, not planning. Although participants had
+detailed plans and full task lists, they were stalled at initi-
+ation. We also found that organization alone didn’t boost
+motivation. Some findings were prominent:
+1. Downscoping works. When an overwhelming call was
+reduced to “only need to find the phone number and in-
+surance information,” participants could finish prepar-
+ing in 5 minutes without distraction. Low-threshold
+tasks can be initiated easily, but unbounded tasks can-
+not.
+2. Tasks without edges are hard to begin. Open-ended
+tasks with no clear starting points easily sat undone for
+months or years even with every prerequisite ready.
+3. Entry point matters. One participant mentioned that
+she needs a start in a familiar location with coffee, and
+fully-charged devices.
+4. Ambiguity amplifies stress. Unstructured tasks are the
+most mentioned factor that causes a sense of over-
+whelm, and fear.
+5. Self-report feels fake. One participant tried the gami-
+fied habit app Habitica and abandoned it because self-
+checking boxes decrease motivation instead of increas-
+ing it.
+6. People create urgency and fallbacks. Participants cre-
+ated fake deadlines (“I will call at three”) and regard
+their social circle as a motivational engine.
+Based on the findings, we proposed 13 how-might-we
+(HMW) questions and 14 rough solution ideas.
+3 Design Space and Concept Selection
+Each team member independently selected two rough ideas
+that they wanted to explore further. Using divergent brain-
+storming techniques, we expanded each concept into 2–3
+distinct variations. Our brainstorming explored different in-
+teraction modalities, including web and mobile applications,
+browser extensions, wearable smart glasses, AR/VR, and
+physical interfaces.
+3.1 Funneling to Three Realizations
+We funneled these distinct ideas into 3 candidate realizations,
+drew concept sketches, and explicitly listed pros and cons:
+1. Users can select the apps that they think are distracting.
+The app button and interfaces of the rest of the apps
+keep colorful, but the longer the users stay on the
+distraction apps, the grayer the interfaces and the app
+buttons become.
+2. Unified weekly, morning and night briefings that turn
+scattered responsibilities into a bounded daily plan.
+3. An accountability companions app, that allows users to
+set both personal and shared goals with their friends,
+track task progress, send encouragement, maintain
+shared streaks, and stay accountable. Through an op-
+tional AR mode, users can also study alongside a friend
+or accountability buddy in a shared virtual workspace,
+creating a stronger sense of co-presence while work-
+ing.
+3.2 Final Selection: Unified Briefings
+We chose Unified Briefings because the idea targets the ac-
+tual barrier our interviews surfaced, which is initiation and
+cognitive overload, not information or planning. One partic-
+ipant had every prerequisite ready for a year (number found,
+script written, insurance card saved) and still couldn’t begin
+because the task had no bounded start or end. By pulling
+scattered obligations from Gmail, Slack, and Calendar into
+one plan and narrowing each day to a single tiny next ac-
+tion, this design gives open-ended tasks the edges that make
+starting possible, meets people in tools they already use, and
+closes the loop from morning to night with rollover so no one
+opens a blank page. This also prevents the analysis paralysis
+of having too many things to do so you don’t know where
+to start. The other two realizations solve narrower problems:
+grayscale apps address distraction, but our participant was
+clear that “it’s not just distraction, it’s that you don’t want to
+do it,” and the buddy system leans on social accountability,
+which risks the shame and rejection sensitivity that make
+ADHD and anxiety users abandon systems in the first place.
+4 Lo-fi Prototyping
+We made two paper prototypes with the same basic function-
+ality but varying interfaces based on the idea we selected,
+expecting users to accomplish 3 defined tasks:
+
+-- 2 of 7 --
+
+Anchor: Steady the Day CS 160 ’26, Summer 2026, UC Berkeley
+1. Plan today from scattered inputs. Start briefing and
+gather tasks from Gmail/Slack/Calendar. Goal: go from
+“something’s due somewhere at some time” to a locked
+top 3 for today, each with a first step. Success: 3 mis-
+sions chosen, each showing one tiny next step.
+2. Start the next action. Goal: find and begin the single
+smallest next step for the priority task, without having
+to decide what to do. Success: user starts the opener.
+3. Close out the day and roll over. Goal: log a quick mood,
+energy, and care check, mark what got done, carry
+unfinished work forward. Success: reflection saved,
+unfinished tasks appear in tomorrow’s plan.
+Each prototype was tested with 3 users with the think-
+aloud method.
+4.1 Two Paradigms
+Prototype A: Stepped briefing and dashboard with struc-
+tured screens, one decision per screen (Figure 1). A mobile
+app with one main full-screen view per stage of the day.
+Each screen is a dense, scannable surface: the weekly brief-
+ing shows source tags (mail, slack, calendar) above a day-
+grouped list of obligations, the morning briefing groups to-
+day’s items into due, calendar, and carried-over sections,
+pick-top-3 is a selectable list, today’s missions shows the
+three chosen tasks each with a tiny next step, and night re-
+flection combines mood and energy dot-scales, care anchors,
+a done count, and a tomorrow list. Everything on a screen is
+visible at once, and the user reads and taps directly.
+Figure 1. Paper Prototype A: the six dashboard screens (This
+Week, Morning Briefing, Pick 3 for Today, Today’s 3 Missions,
+Focus Sprint, and Night Reflection).
+Prototype B: Conversational co-pilot. Voice compan-
+ion, delivers briefings as a conversational chat thread with
+quick-reply chips and audio, so planning feels like just an-
+swering a few messages (Figure 2). Navigation flow: a single
+scrolling chat thread with audio assistant, rather than a se-
+quence of screens.
+Figure 2. Paper Prototype B: the conversational co-pilot
+storyboard, from morning brief through focus session to
+evening reflection.
+4.2 Findings
+We tested each prototype with three participants using a
+think-aloud protocol (Figures 3–5). Prototype A was praised
+more often than Prototype B. The core idea (consolidate
+scattered obligations, narrow to a next action) consistently
+landed, while the failure modes were about how much the
+app shows and asks.
+Figure 3. Think-aloud testing of Prototype A: reviewing the
+night reflection (left) and the This Week overview (right).
+Common patterns across both prototypes are that users
+value simplicity and easy navigation while under the cir-
+cumstances of dealing with tasks. Users value the idea of
+consolidation, only 3 tasks at one time, starting a focus ses-
+sion without overthinking, rollover tasks, one tiny step at a
+time, and the clear copilot chat flow.
+
+-- 3 of 7 --
+
+CS 160 ’26, Summer 2026, UC Berkeley Bhowmick et al.
+Figure 4. Participants completing the three core tasks on
+Prototype A: morning briefing, Today’s 3 Missions, and the
+Focus Sprint timer.
+Figure 5. Prototype B think-aloud sessions.
+We all agreed on adopting the concept of Prototype A;
+however, there are some common usability issues in Proto-
+type A, such as an ambiguous starting point, unnecessary
+mood and energy tracking, missing due time, false affor-
+dances, and the burden of adjusting the task plan. Therefore,
+we planned changes for the next iteration: open on today’s
+briefing by default, add a guided first run, make source icons
+functional buttons, make wellness tracking optional, dif-
+ferentiate the two selection screens, and attach times and
+pre-deadline alerts to tasks.
+5 Hi-Fi Prototyping
+Three team members independently designed high-fidelity
+single-screen mockups exploring different visual directions
+for the same core flow. Design 1 used a green-and-yellow
+palette with strong task-list organization but was critiqued
+for an unclear active-navigation state. Design 2 used a cohe-
+sive sage-green and neutral palette, explicitly built around a
+calming, wellness-oriented aesthetic, and most clearly sup-
+ported breaking tasks into smaller steps. Design 3 offered a
+clean, minimal interface but was missing core features our
+concept depended on, including task breakdowns and focus
+sessions.
+We selected Design 2, both for its alignment with our
+target users’ need for a calm, non-overwhelming interface,
+and because its visual language could extend naturally to a
+“Growth Garden” progress visualization we had identified as
+a stretch goal.
+We then built a full interactive Figma prototype and tested
+it with six external participants. Three recurring themes
+emerged:
+1. Visual customization. Five of six participants wanted
+more visual customization, several explicitly describ-
+ing the fixed green palette as a limiting factor in their
+willingness to adopt the app.
+2. Timer flexibility. Four of six participants wanted a
+more flexible focus timer, including custom durations
+rather than fixed five-minute increments, and a wider
+range of ambient sound options.
+3. Unclear text and interactions. Several participants found
+specific text and interactions unclear, including the
+meaning of “Anchor 1 is next” on the home screen,
+how rollover tasks worked, and a desire for clearer
+visual distinction between completed and incomplete
+tasks.
+In response, we planned a user-selectable accent color
+system, an adjustable timer, and a broader revision pass on
+the Today screen’s copy and task states, all of which carried
+directly into implementation.
+At this stage we also finalized our app’s identity: the name
+Anchor, a minimal anchor-in-a-circle logo, and the tagline
+“Steady the day,” chosen to reflect the app’s core philosophy
+of narrowing an overwhelming day down to a small, steady
+set of priorities.
+6 Implementation
+Anchor is implemented as a React 18 single-page application,
+built and bundled with Vite. Routing uses React Router in
+hash mode, which lets the app be hosted as a static site
+without server-side routing support, a necessary constraint
+given our deployment target of GitHub Pages via the gh-
+pages package.
+For authentication and data persistence, we used Supabase,
+providing both a Postgres database and built-in authentica-
+tion (email/password sign-up, password reset, and Google as
+a sign-in provider). We designed the data layer to be offline-
+first: a user’s plan, reflections, and focus sessions are read
+from and written to localStorage immediately, with Supabase
+acting as a syncing layer that pulls and merges account data
+on sign-in. This meant the app remained fully usable without
+an account, and signing in later did not require migrating or
+losing local progress. Supabase’s row-level security policies
+scope every read and write to the authenticated user’s own
+ID, so no user’s plan is visible to another.
+Google Calendar and Gmail access uses the @react-oauth/
+google library, requesting read-only scopes and storing the
+resulting access token locally for use in subsequent API calls.
+Because the app has no backend server, this is a fully client-
+side OAuth flow using PKCE (Proof Key for Code Exchange)
+rather than the implicit flow, chosen specifically because im-
+plicit tokens are returned in the URL hash fragment, which
+
+-- 4 of 7 --
+
+Anchor: Steady the Day CS 160 ’26, Summer 2026, UC Berkeley
+would otherwise collide with React Router’s own use of the
+hash for client-side routing. Gmail messages are filtered by
+a fixed query (unread, excluding Promotions and Social cate-
+gories) before being surfaced as task candidates, a decision
+made after concluding that presenting a user’s entire inbox
+as “tasks” would work against the app’s goal of reducing,
+not adding to, daily cognitive load.
+Styling follows a token-based CSS system derived directly
+from our Figma file, using CSS custom properties for color,
+spacing, and radius values so that a single accent-color change,
+offered to the user in Settings, propagates consistently across
+every screen, including a distinct dark mode.
+Before evaluation, we ran a structured round of feature
+and stress testing across the full application, covering authen-
+tication, navigation, data persistence, the Morning Briefing,
+the focus timer, task rollover, Google integration, and man-
+ual task entry. This testing surfaced and resolved several real
+bugs, including anchors not saving to Today after briefing
+selection, timer audio continuing to play after the timer was
+paused, and postponed tasks not actually persisting to the
+next day. It also surfaced one open issue not yet fixed: calen-
+dar dates were generated in UTC while day-matching logic
+used local time, causing tasks to appear on the wrong day for
+users in timezones ahead of UTC. Stress testing (long input
+strings, corrupted local storage, rapid repeated input, large
+data volumes) found the app’s existing validation and fall-
+back handling to be robust in most cases, with the timezone
+bug as the one confirmed exception.
+7 User Evaluation
+We conducted a think-aloud evaluation with five partici-
+pants, measuring the metric in Table 1. Each completing the
+three primary tasks defined in Section 4: planning the day
+from scattered inputs, starting the next action, and closing
+out the day with rollover. Sessions were screen-recorded if
+the participant was comfortable, also recording audio of re-
+sponses, otherwise we took notes; each ran 30 to 45 minutes,
+and participants completed a post-task Likert survey and an
+open-ended debrief.
+Open-ended questions, asked conversationally:
+• Overall, how did that feel compared to how you cur-
+rently keep track of your day?
+• Was there any moment where you weren’t sure what
+to do next? Walk me through what you were thinking
+there.
+• What’s one thing you’d want changed before you’d
+actually use this daily?
+• Was there anything that surprised you in a good or
+bad way?
+7.1 Quantitative Results
+Figure 7 shows the post-task survey responses, and Figure 6
+shows average time on task and first-attempt completion
+rates. Task 1 (Plan today) and Task 3 (Close out the day) were
+completed successfully, without facilitator intervention, by
+4 of 5 participants. Task 2 (Start the next action) was the
+clear outlier: only 1 of 5 participants completed it without
+help, with the other four either failing on first attempt or
+requiring direct instruction.
+Figure 6. Average time on task versus the two-minute goal
+(top), and first-attempt completion without assistance versus
+the 80% target (bottom). Task 2 (start the next action) missed
+both targets.
+Time on task followed the same pattern. Task 1 averaged
+just under a minute; Task 3 averaged under two minutes for
+most participants. Task 2 took substantially longer across the
+board, ranging from 1:26 up to 5:00, well past our 2-minute
+target for every participant except one.
+Tap counts were similarly uneven. While several partici-
+pants completed Task 1 near or under our target of 5 taps,
+Task 2 and Task 3 saw wide variance, including one partic-
+ipant needing 30 and 35 taps respectively for Task 2 and
+Task 3, far above target. Assist counts and error counts were
+highest on Task 2 and Task 3, with one participant needing
+4 assists and encountering 6 errors on Task 1 alone.
+Taken together, the quantitative data points to the same
+conclusion the qualitative coding independently reached:
+Task 2, starting a focus session, is where the app currently
+loses users.
+
+-- 5 of 7 --
+
+CS 160 ’26, Summer 2026, UC Berkeley Bhowmick et al.
+Table 1. Evaluation metrics, targets, and aggregate results across the five participants
+Metric Target Result
+Task completion ≥80% of participants complete each task indepen-
+dently%
+Time on task Under 2 minutes
+Taps/clicks to completion Minimize unnecessary steps
+Screens per task Minimize unnecessary navigation
+Assists needed No facilitator assistance for at least 4 of 6 partici-
+pants per task
+Errors / wrong turns ≤1 error per task on average
+Figure 7. Post-task usability survey results: nine statements on a 1–5 agreement scale (n = 5).
+7.2 Qualitative Findings
+We coded think-aloud transcripts and observation notes from
+all five sessions into 13 descriptive codes, which we grouped
+into three usability themes.
+Theme 1: Anchor’s labels describe the app’s own
+concepts rather than the action they perform. Three
+participants stalled on at least one label. One participant
+did not recognize “choose an anchor” as meaning “choose a
+task” and suggested the simpler wording directly. Another
+asked “What’s today’s anchors section?” and separately did
+not read “Start weekly briefing” as an actionable button. The
+“Start 5 min” label was the single most consistent point of
+confusion, with participants unable to tell whether it meant
+the task would take five minutes or that it would start a
+five-minute timer.
+Theme 2: The app gives little feedback about what
+an action did, and offers few ways to undo or exit. One
+participant finished a focus session early and found no way
+to end it, and no way to leave the timer screen at all; the
+timer overlay also blocked her navigation while she was
+stuck. The same participant tried to reverse an “I started”
+state after tapping it and received no response. Three partici-
+pants separately went looking for an end-of-session sound or
+vibration that did not exist. Several participants also wanted
+visible due dates and clearer date labeling, information the
+app currently does not surface.
+Theme 3: The features participants valued most were
+consistently the ones they discovered last. The Garden
+screen drew unprompted praise from three participants once
+they found it, one comparing it favorably to her current
+calendar-and-reminders workflow, but it was not part of
+the core task flow and had to be found. One participant
+never navigated to Reflection unprompted at all, describing
+it afterward as unclear that it functioned as the day’s closing
+step. Multiple participants explicitly said the app made more
+sense on a second pass than a first.
+
+-- 6 of 7 --
+
+Anchor: Steady the Day CS 160 ’26, Summer 2026, UC Berkeley
+7.3 Next Steps
+Based on these findings, we identified five concrete changes
+for our next iteration:
+1. Add a first-run guided walkthrough that runs the full
+loop once with sample content, since every participant
+needed a second pass before the app’s structure made
+sense.
+2. Rename product-specific labels to familiar action words,
+replacing “Anchor” and “Start 5 min” with plainer lan-
+guage like “task” and clearer action framing, while
+keeping “Anchor” as the app’s name rather than its
+interface vocabulary.
+3. Make every action reversible and confirmed, including
+an exit and “done” control on the timer, an editable “I
+started” state, and confirmation messages with undo
+for destructive actions like clearing tasks.
+4. Add optional notifications, sound, and vibration for
+session end and upcoming due times, addressing the re-
+peated request for an audible or physical signal rather
+than requiring users to check the screen.
+5. Surface due dates and deadlines directly on tasks, and
+roll missed, unscheduled deadlines forward automati-
+cally rather than letting them silently disappear.
+8 Conclusion
+Anchor began from a specific, recurring observation in our
+needfinding interviews: that our participants’ struggle was
+rarely a lack of information or planning ability, but the ab-
+sence of a small, bounded entry point into work they already
+understood. Every stage of our process, from choosing the
+unified-briefing concept over grayscale distraction-blocking
+or social accountability, to removing mood/energy tracking
+after lo-fi testing, to adding user-selectable color themes af-
+ter hi-fi critique, was driven by returning to that same core
+problem rather than adding features for their own sake.
+Our final evaluation confirmed both the strength and the
+current limits of that approach. Participants consistently
+valued the same things we set out to build: a bounded plan, a
+reflection that reframes setbacks as information, and a visual
+sense of progress over time. But the evaluation also showed
+that value was often hidden behind unfamiliar language and
+unclear feedback, particularly at the exact moment, starting
+a task, that our own needfinding identified as hardest for this
+user group. Building a working implementation surfaced its
+own lessons beyond design, particularly around the practical
+constraints of a fully client-side, statically-hosted application:
+OAuth flows without a backend, offline-first data persistence,
+and keeping a growing team’s contributions to a shared
+codebase coherent.
+We see Anchor not as a finished product but as a working
+demonstration that a genuinely small, honest daily plan can
+be more useful to an overwhelmed user than a more com-
+plete, more powerful system, provided that plan is also clear
+enough to trust on the first try.
+Acknowledgments
+Thank you so much, Selaine and Mina, for your guidance
+and feedback throughout the semester! Thank you to our
+classmates for their thoughtful feedback on our prototypes
+and for sharing your work with us. And a huge thank you
+to all of our interviewees—from friends who volunteered
+their time to Berkeley students we recruited on the spot—for
+sharing your experiences and helping shape our project.
+
+-- 7 of 7 --
+

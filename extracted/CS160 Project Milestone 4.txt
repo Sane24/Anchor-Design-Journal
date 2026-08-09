@@ -1,0 +1,381 @@
+Sampurn Bhowmick, Na Mi Kim, Madison Lee, Thanhbinh Nguyen, Reed Yalouh
+COMPSCI 160
+Summer 2026
+July 31, 2026
+Project Milestone 4: Implementation
+We have already submitted the Google Form to report AI coding tool usage.
+Project URL: https://sane24.github.io/Anchor-App
+GitHub Repository URL: https://github.com/Sane24/Anchor-App
+Feature Testing:
+Feature tested Expected result 	Actual result 	Fix / iteration
+Sign up, log
+in, and log out
+A new user can create
+an account with name,
+email, and password,
+gets signed in
+automatically, sees their
+identity reflected in
+Settings (Account
+section), can sign out,
+and can sign back in
+with the same
+credentials.
+User can create
+account and sign in to
+existing account
+Iteration: added
+password requirements
+for signing in (password
+must be at least 8
+characters and include
+an uppercase letter, a
+number, and a symbol)
+and forgot password
+retrieval
+Navigate
+between
+Today,
+Garden, This
+Week,
+Reflection,
+Settings pages
+Can tap each tab to load
+the screen without
+errors. Navigating back
+doesn't lose state
+unexpectedly
+Successful navigation
+between tabs through
+the home navigation
+bar. Opening Briefing
+(from Today) and
+Timer (from an
+anchor) work correctly
+even though they're
+not tabs themselves
+Iteration: made the
+Anchor logo clickable
+Resume
+progress after
+refreshing or
+Change the input of the
+first step on Today’s
+screen, and can still see
+the changed results after
+refreshing the page
+The change is not
+saved after refreshing,
+would revert
+Fixed: wired the input's
+onChange to save
+directly to the shared
+plan store on every edit,
+so the value is already
+
+-- 1 of 5 --
+
+logging back
+in
+persisted by the time a
+refresh happens
+Confirm that
+one user
+cannot access
+another user’s
+progress
+Each user's tasks and
+progress are private and
+not visible to other
+accounts
+Successful: Verified on
+a separate
+browser/account, so no
+tasks from the original
+account appeared
+No need to fix:
+Supabase's row-level
+security policies already
+scope all reads/writes to
+auth.uid()
+Morning
+briefing:
+review items
+and pick top 3
+tasks from
+calendar to
+Today’s
+Anchor
+Can successfully choose
+the preferred 3 tasks
+from the calendar to
+Today’s Anchor screen
+Selected tasks did not
+appear on Today
+Briefing’s save action
+wrote to localStorage
+under a key nothing else
+was reading from.
+Iteration: connected
+Briefing's save to the
+shared store.js plan
+functions so Today reads
+the same saved anchors.
+Focus timer
+with popup
+settings
+Can turn off the music
+without going back to
+the focus timer screen
+Music kept playing
+even while the timer
+was paused
+Fixed: the pause button
+only stopped the
+countdown, not the
+separate audio element.
+Iteration: added an
+explicit audio .pause()
+call inside the same
+pause handler that stops
+the timer.
+Tomorrow:
+Postpone the
+task
+Can see the task set to
+do tomorrow popping on
+tomorrow’s calendar
+No change appeared.
+The task did not carry
+over
+Root cause: the postpone
+action updated the task's
+date locally but never
+re-saved it to the store,
+so the change was lost.
+Iteration: postpone now
+updates the task's date
+field in the store directly,
+so it appears under the
+new day everywhere the
+data is read.
+Change timer
+duration
+Predetermined times (5,
+15, 25 minutes) can be
+set by the user and
+automatically count
+down when the start
+Successful, all buttons
+are functional and can
+edit the timer duration.
+Iteration: sliding the
+timer circle adjusts the
+countdown length,
+allowing for manual
+input by the user.
+
+-- 2 of 5 --
+
+button is clicked. +5 or
+-5 buttons can also be
+used to edit the timer
+duration.
+Connect
+Google
+account
+Clicking “Connect”
+opens a Google will
+open a sign-in popup;
+briefings fetch real data
+Access blocked for
+emails that were not
+added to the Test
+Users in Google
+console
+OAuth app is in Testing
+publishing status, which
+restricts sign-in to an
+explicit allowlist.
+Iteration: added required
+teammate/tester emails
+to the Test Users list in
+Google Cloud Console.
+Known limitation: this is
+not a permanent fix, any
+new user still needs to be
+manually added unless
+the app is moved to
+Production or verified.
+Manually add
+tasks
+Can add tasks to Today’s
+Anchor by typing.
+Manually added task
+selected as an Anchor
+Input field was not
+fully implemented
+Root cause: no input
+field existed yet for
+manual task entry.
+Iteration: added a text
+input and “Add” button
+that appends a new task
+to the list on submit.
+Enable
+notification
+reminders and
+receive one at
+the set time
+Set morning reminder 2
+min ahead, switch to
+another tab, notification
+fires at the set time even
+when not on Settings
+Successful, worked as
+expected
+No fix needed.
+This Week day
+filtering
+Tapping a day chip
+shows only that day’s
+tasks and events, with
+correct due times and
+source tags
+(Gmail/Calendar/manual
+ly added by you)
+Successful, worked as
+expected
+No fix needed.
+Stress testing:
+Test 	What happened 	What changed afterward
+
+-- 3 of 5 --
+
+Submitted the task input with
+no text entered
+The Add button correctly
+stayed disabled/inactive,
+preventing an empty task
+from being created
+No change needed — existing
+validation already blocks this
+case
+Entered a very long string
+(100+ characters) into the
+task input field
+Text overflowed its container
+and spilled off the visible
+screen edge
+Added min-width: 0 +
+overflow-wrap: anywhere;
+retested 8 screens, 0 overflow
+Refreshed the browser while
+the focus timer was actively
+running
+The timer reset to its starting
+duration, losing the
+in-progress countdown
+Added logic to persist the
+timer's remaining time and
+running state to storage on
+each tick, so a refresh restores
+the timer where it left off
+instead of resetting
+Rapidly clicked the Start
+button on the timer multiple
+times in succession
+The timer started normally
+once; repeated clicks had no
+unintended effect (no
+duplicate timers, no
+double-counted time)
+No changes needed, the start
+handler is already idempotent
+while a session is active
+Loaded the app on a very
+small screen width (below
+360px)
+The layout remained
+functional and legible, with
+no broken or clipped
+elements.
+No changes needed.
+Responsive styles already
+handle this width
+Manually edited saved
+notification settings in
+localStorage into invalid
+JSON, then reloaded the app
+The app detected the
+corrupted data and fell back
+to default notification settings
+instead of crashing
+No changes needed, error
+handling covers malformed
+stored data
+Forced an invalid reminder
+time value ("99:99") into
+settings and triggered the
+scheduler
+The scheduler did not throw
+an error or freeze the app; it
+silently ignored the invalid
+time
+No change needed. Input was
+cleaned
+Added a large data volume by
+injecting 500 tasks through
+the data layer, today and this
+week should still load and
+stay responsive
+Today and This Week screens
+still loaded correctly and
+remained responsive, with no
+noticeable lag
+No change needed. Current
+rendering approach scales to
+this volume without
+optimization
+Created a task with a missing
+due time field
+The task rendered correctly in
+the day view without crashing
+the app or the storage layer
+No change needed. Missing
+fields are already handled
+with safe backup plan
+
+-- 4 of 5 --
+
+Checked whether tasks land
+on the correct calendar day
+across different user
+timezones
+Bug found: sample task dates
+are generated in UTC, while
+This Week keys days using
+local time. For users in UTC+
+timezones (e.g., Europe,
+Asia), tasks appeared on the
+wrong calendar day. The bug
+was not caught earlier
+because all testing had been
+done in US timezones, where
+the UTC/local mismatch
+doesn't cross a day boundary.
+Identified as an open bug, not
+yet fixed. Planned fix for next
+iteration: generate day-offset
+dates using local date
+formatting (matching the
+same toKey function This
+Week already uses) instead of
+UTC, so date generation and
+date lookup use a consistent
+timezone basis.
+Updated Development Plan
+Sheets: Anchor Implementation Plan
+
+-- 5 of 5 --
+

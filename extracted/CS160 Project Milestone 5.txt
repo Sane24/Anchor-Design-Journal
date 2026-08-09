@@ -1,0 +1,736 @@
+Sampurn Bhowmick, Na Mi Kim, Madison Lee, Thanhbinh Nguyen, Reed Yalouh
+COMPSCI 160
+Summer 2026
+August 6, 2026
+Project Milestone 5: User Evaluation
+1) 3 User Scenarios
+Primary User Task 1: Plan today from scattered inputs
+● Milestone 2: Start a briefing and gather tasks from Gmail/Calendar. Goal: go from
+“something's due somewhere at some time” to a locked top 3 for today, each with a first
+step.
+● Scenario read to participant: “You’ve just woken up and realize you have a full day of
+classes/work, an assignment due, a midterm coming up, or a pile of unread emails. You
+want to walk into the day with a clear head instead of scrolling through everything that’s
+pending. Show me how you’d use this app to figure out what actually matters today and
+lock in your plan.”
+● Success criteria: participant starts morning briefing, is able to see upcoming tasks or adds
+tasks manually, selects 3 Anchors for the day; process is intuitive and does not take up
+too much time.
+Primary User Task 2: Start the next action
+● Milestone 2: Find and begin the single smallest next step for the priority task, without
+having to decide what to do.
+● Scenario read to participant: “You’ve made a plan for your day and identified these three
+main Anchors. However, you’re having trouble getting started as it feels like there’s so
+much to do for these Anchors. Using this app, show me how you would break down the
+task and actually sit down and begin working on your first Anchor in a Focus Session.”
+● Success criteria: participant starts the opener/first step for their top Anchor (e.g., begins a
+focus session) and knows the first step to begin without pausing to decide what to do.
+Primary User Task 3: Close out the day and roll over
+● Milestone 2: Mark what got done, carry unfinished work forward. Success: reflection
+saved, unfinished tasks appear in tomorrow's plan.
+● Scenario read to participant: “It’s the end of the day. You got through some of what you
+planned, but not all of it. Show me how you’d use this app to wrap up and see what you
+got done as well as decide what happens to what’s left.”
+● Success criteria: participant saves a reflection, and any unfinished Anchor is confirmed to
+roll into tomorrow’s plan.
+
+-- 1 of 19 --
+
+2) Evaluation Interview Protocol
+Total session length: 30–45 minutes. Sessions will be screen-recorded (with audio) with the
+participant’s consent, and one team member should take live notes while another facilitates.
+Recording: use the phone’s built-in screen recorder with microphone enabled
+● iPhone: Settings → Control Center → add Screen Recording if not already added. Swipe
+into Control Center, long-press the record icon (not a single tap), enable the microphone
+option, then Start.
+● Android: swipe down twice for Quick Settings → Screen Recorder. Enable microphone
+audio before starting
+● Maybe a second phone or laptop webcam angled at the participant’s face captures
+non-verbal cues (frowns, hesitation) for the qualitative notes?
+Introduction and Consent (3 minutes)
+“Hi, thanks for taking the time to test this with us today! We're students building an app called
+Anchor, meant to help people cut through decision fatigue by narrowing each day down to just
+three focus tasks.”
+“We're going to give you a phone with the app open, and walk you through a few everyday
+situations.This session should take about 30 to 45 minutes total. As you go, please think aloud as
+much as possible. Feel free to say whatever’s going through your head. There’s no need to
+explain or narrate perfectly, just talk the way you’d think to yourself.”
+“This is a test of the app, not of you. If anything is confusing or doesn’t work the way you
+expect, that's exactly what we want to find out, and it’s on us, not you. We’ll be screen recording
+with audio so we can review it afterward, and everything stays private within our team. Is that
+okay with you?”
+[Get verbal and signed consent to record.]
+Think Aloud Session (15-20 minutes)
+Facilitator notes:
+● Read each of the three scenarios below, one at a time, in order.
+● Do not help or hint unless the participant is completely stuck for 30+ seconds. Note this
+as a failure/assist point if it happens.
+“So I’m going to read out a few scenarios and then just talk through what you're thinking and
+doing as you try to complete the tasks.
+Task 1: Plan today from scattered inputs
+
+-- 2 of 19 --
+
+Scenario read to participant: “You’ve just woken up and realize you have a full day of classes, an
+assignment due, a midterm coming up, and a pile of unread emails. You want to walk into the
+day with a clear head instead of scrolling through everything that’s pending. Show me how you’d
+use this app to figure out what actually matters today and lock in your plan.”
+Success criteria: participant starts morning briefing, is able to see upcoming tasks or adds tasks
+manually, selects 3 Anchors for the day; process is intuitive and does not take up too much time
+Task 2: Start the next action
+Scenario read to participant:
+“You’ve made a plan for your day and identified these three main Anchors. However, you’re
+having trouble getting started as it feels like there’s so much to do for these Anchors. Using this
+app, show me how you would break down the task and actually sit down and begin working on
+your first Anchor in a Focus Session.”
+Success criteria: participant starts the opener/first step for their top Anchor (e.g., begins a focus
+session) and knows the first step to begin without pausing to decide what to do.
+Task 3: Close out the day and roll over
+Scenario read to participant:
+“It’s the end of the day. You got through some of what you planned, but not all of it. Show me
+how you’d use this app to wrap up and see what you got done as well as decide what happens to
+what’s left.”
+Success criteria: participant saves a reflection, and any unfinished Anchor is confirmed to roll
+into tomorrow’s plan.
+Quantitative Usability Survey (5 minutes)
+“Before we chat about how that felt, I'm going to hand you a quick survey. It's about 9 questions,
+just tap the number that matches how much you agree with each statement. There's no right
+answer, and feel free to be honest, even if it's critical. Take your time”
+Debrief Interview (5 minutes)
+“Thanks for filling that out. Now I just want to chat for a few minutes about your overall
+experience”
+Open-ended questions, asked conversationally:
+● Overall, how did that feel compared to how you currently keep track of your day?
+● Was there any moment where you weren't sure what to do next? Walk me through what
+you were thinking there.
+
+-- 3 of 19 --
+
+● What's one thing you'd want changed before you'd actually use this daily?
+● Was there anything that surprised you in a good or bad way?
+● (If relevant) I noticed you paused on [X] what was going through your mind there?
+“That's everything! Thank you so much for your time and honesty today, this is genuinely going
+to help us improve the app. Do you have any questions for us before we wrap up?”
+3) Quantitative Success Metrics
+Metrics Table:
+Metric 	Target 	Result
+Task completion 	≥80% of participants complete each
+task independently
+Time on task 	Under 2 minutes
+Taps/clicks to completion 	Minimize unnecessary steps.
+Targeted:
+Task 1: 5
+Task 2: 10
+Task 2: 5
+Number of screens per task 	Minimize unnecessary navigation
+Task 1: 2
+Task 2: 1
+Task 2: 2
+Assists needed 	No facilitator assistance for at least
+4 of 6 participants per task
+Errors / wrong turns 	≤1 error per task on average
+1. Madison_Nami_1 - Recent UC Berkeley Education of Science graduate with Anxiety
+Metric 	Goal for per participant 	Result
+Task success on first attempt 	Complete the tasks 	Task 1: yes
+Task 2: no
+Task 3: yes
+Time on task 	Under 2 minutes 	Task 1: 1:13
+Task 2: 1:26
+Task 3: 0:19
+Number of taps/clicks to
+completion
+Minimize unnecessary steps.
+Targeted:
+Task 1: 5
+Task 1: 12
+Task 2: 14
+Task 3: 2
+
+-- 4 of 19 --
+
+Task 2: 10
+Task 2: 5
+Number of screens per task 	Minimize unnecessary navigation.
+Targeted:
+Task 1: 2
+Task 2: 1
+Task 2: 2
+Task 1: 3
+Task 2: 2
+Task 3: 2
+Number of assists
+needed/buttons that they don’t
+understand
+No assist at all and no
+misunderstanding of any buttons
+Task 1: 1
+Task 2: 3
+Task 3: 0
+Number of errors / wrong turns No errors/ wrong turns 	Task 1: 0
+Task 2: 3
+Task 3: 0
+2. Madison_Nami_2 - UC Berkeley Master of Design, stressed due to senior thesis
+Metric 	Goal for per participant 	Result
+Task success on first attempt 	Complete the tasks 	Task 1: yes
+Task 2: no
+Task 3: no
+Time on task 	Under 2 minutes 	Task 1: 0: 28
+Task 2: 2: 20
+Task 3: 0: 03
+Number of taps/clicks to
+completion
+Minimize unnecessary steps.
+Targeted:
+Task 1: 5
+Task 2: 10
+Task 2: 5
+Task 1: 7
+Task 2: 5
+Task 3: 1
+Number of screens per task 	Minimize unnecessary navigation
+Task 1: 2
+Task 2: 1
+Task 2: 2
+Task 1: 2
+Task 2: 2
+Task 3: 2
+Number of assists
+needed/buttons that they don’t
+understand
+No assist at all and no
+misunderstanding of any buttons
+Task 1: 0
+Task 2: 1
+Task 3: 0
+Number of errors / wrong turns No errors/ wrong turns 	Task 1: 0
+Task 2: 3
+Task 3: 1
+3. Thanhbinh - Recent UC Berkeley Graduate in CS
+Metric 	Goal for per participant 	Result
+
+-- 5 of 19 --
+
+Task success on first attempt 	Complete the tasks 	Task 1: yes
+Task 2: no (had to instruct)
+Task 3: yes (had to reprompt)
+Time on task 	Under 2 minutes 	Task 1: 0:27
+Task 2: 2:10
+Task 3: ~5 mins (had to instruct)
+Number of taps/clicks to
+completion
+Minimize unnecessary steps.
+Targeted:
+Task 1: 5
+Task 2: 10
+Task 2: 5
+Task 1: 7
+Task 2: 30
+Task 3: 35
+Number of screens per task 	Minimize unnecessary navigation
+Task 1: 2
+Task 2: 1
+Task 2: 2
+Task 1: 1
+Task 2: 1
+Task 3:3
+Number of assists
+needed/buttons that they don’t
+understand
+No assist at all and no
+misunderstanding of any buttons
+Task 1: 0
+Task 2: 2
+Task 3: 2
+Errors / wrong turns 	No errors/ wrong turns 	Task 1: 0
+Task 2: 3
+Task 3: 3
+4. Sampurn - Recent Berkeley Grad with Anxiety, New Grad SWE
+Metric 	Goal for per participant 	Result
+Task success on first attempt 	Complete the tasks 	Task 1: yes
+Task 2: yes
+Task 3: yes
+Time on task 	Under 2 minutes 	Task 1: 1min
+Task 2: 2 min
+Task 3: 1.5 min
+Number of taps/clicks to
+completion
+Minimize unnecessary steps.
+Targeted:
+Task 1: 5
+Task 2: 10
+Task 2: 5
+Task 1: 4
+Task 2: 6
+Task 3: 5
+Number of screens per task 	Minimize unnecessary navigation
+Task 1: 2
+Task 2: 1
+Task 2: 2
+Task 1: 2
+Task 2: 1
+Task 3: 3
+
+-- 6 of 19 --
+
+Number of assists
+needed/buttons that they don’t
+understand
+No assist at all and no
+misunderstanding of any buttons
+Task 1: 0
+Task 2: 3
+Task 3: 4
+Errors / wrong turns 	No errors/ wrong turns 	Task 1: 0
+Task 2: 0
+Task 3: 0
+5. Reed - Recent Berkeley graduate in Economics
+Metric 	Goal for per participant 	Result
+Task success on first attempt 	Complete the tasks 	Task 1: yes
+Task 2: no, had to intervene for
+instruction
+Task 3: yes
+Time on task 	Under 2 minutes 	Task 1: 2:15
+Task 2: 5:00
+Task 3: 3:00
+Number of taps/clicks to
+completion
+Minimize unnecessary steps.
+Targeted:
+Task 1: 5
+Task 2: 10
+Task 2: 5
+Task 1: 5
+Task 2: 12
+Task 3: 4
+Number of screens per task 	Minimize unnecessary navigation
+Task 1: 2
+Task 2: 1
+Task 2: 3
+Task 1: 2
+Task 2: 1
+Task 3: 2
+Number of assists
+needed/buttons that they don’t
+understand
+No assist at all and no
+misunderstanding of any buttons
+Task 1: 4
+Task 2: 1
+Task 3: 0
+Errors / wrong turns 	No errors/ wrong turns 	Task 1: 6
+Task 2: 10
+Task 3: 3
+2 Figures:
+
+-- 7 of 19 --
+
+Usability Survey
+https://forms.gle/LExQxcNtxUvTV4L76
+
+-- 8 of 19 --
+
+4) Qualitative Metrics
+Observation Logs:
+Participant 1 (UC Berkeley Master of Design):
+Quotes:
+1. “If I click this, would it be accomplished or?”
+2. “Will it ring when it’s over?”
+3. “Maybe it’s telling you how long the task is?”
+4. “It might feel like an extra step because I use Google Calendar or personal alarms, so it’s nice to
+have the actual physical sound like vibration…for this one, you have to check your phone to see
+when time is up”
+5. “When adding your task, adding a specific time so they’re like in order would be better”
+6. “Alarm setting or something when you’re tasked, I think adding a time factor like 10 minutes
+pretty much to be your reminder part”
+7. “Maybe there should be a screen save feature”
+8. “Is the time like a reminder for you in 25 minutes you should start this task or is it this task will
+be 25 minutes long, and you’re setting the timer?”
+Insights:
+1. Icon confusion (task check circles, focus timer)
+2. Would be annoying checking, so add alarm/vibration
+
+-- 9 of 19 --
+
+3. Time order on tasks request
+4. Notification before tasks due request
+Participant 2 (UC Berkeley Master of Design):
+Task Hesitation Triggers:
+1. Paused for 3 seconds when attempting Task 2. Unsure a focus session means and how to start one
+2. Paused for 2 seconds after clicking “tomorrow” button. Seemed unsure of the button’s purpose
+and the resulting actions
+3. Hesitated before clicking “I started” and seemed unsure what it was supposed to prompt
+Non-verbal cue:
+1. Smiled after seeing the growth garden
+Quotes:
+1. “Focus session…? Is that part of this?”
+2. “I’m wondering if it would tell me the following tasks after the first step... because like thesis
+research is like a really broad thing.”
+3. “Anchor as an app would be really helpful for approaching this cuz it’s like oh I have to do my
+thesis which is really overwhelming. How can I break this down into smaller tasks?”
+4. “wondering if there’s a way to kind of further itemize it or if I could add details maybe from
+other sources like my drive or like Claude as like a repository to kind of draw information.”
+5. "Oh, I guess it just shifts it... Out of sight, out of mind."
+6. “I like that there’s a visual to like kind of I guess like visualize your progress and it kind of gives
+like a metaphor for like this and then maybe you’ll get it to see more beautiful as you work
+through it.”
+Insights:
+1. Expected the the tool to decompose broad tasks beyond just a single "first step" displayed
+2. Said they wanted to pull context from outside tools/sources rather than manually re-entering info
+Participant 3 (Recent UC Berkeley Graduate in CS)
+Quotes:
+1. “I guess this a homepage for future oriented stuff”
+2. “Part of me want to write more like description, but I do like the first step suggestion”
+3. “When i’m editing this (tasks), part of me want to see the calender…cuz it’s easier to add”
+4. “If there’s a plus button here (next to the tomorrow on this week page)”, i would want to add that”
+5. “If I want to add midterm for Wednesday(tomorrow), I can’t add it here (tomorrow section), I
+have to go through this (today’s anchor adding field)...O ok now I see (can select the date while
+adding tasks in this week page)....It took me around 2 minutes to figure out this, but now I feel
+good about it”
+
+-- 10 of 19 --
+
+6. “It felt like off the bat, kinda todo notes app, not apparent until i dig more deep than that more
+like reflection and breaking things down”
+7. “I prefer to brain down everything myself, and this app give me the first step”
+Task Hesitation Triggers:
+1. Unclear task-starting flow - feeling lost while starting the tasks
+2. Need for controlling breaking the task down - user wants to take control of task breaking down
+process.
+3. Value of first step-suggestion - users appreciate the starting support
+4. Need for Calendar Context - user wants to select tasks from calender
+5. Missing contextual add control while adding tasks from this week screen - user wants to add tasks
+more easily
+6. Hidden date selection while adding tasks - users want to see clearer guidance while adding tasks
+from different dates
+7. Unclear product value
+Insights:
+1. The app’s workflow is not immediately apparent causing users to take a while to figure out the
+app’s purpose
+2. Hidden and disconnected task-entry causing task-switching cost
+3. Users value first-step suggestion, but still want control over the task breakdowns
+Participant 4 (New Grad SWE with Anxiety):
+Task hesitation triggers:
+1. Stalled on the “choose an anchor” step, did not know what the word meant in this context and
+suggested “choose a task” instead.
+2. Paused at “Start 5 min,” unclear whether it started the task itself or only a timer
+3. Reached the end of a focus session early and found no way to finish it, then no way to leave the
+timer screen at all
+4. Did not navigate to Reflection unprompted, would not have thought to look for it on their own
+5. Tried to reverse the “I started” state and stopped when nothing responded
+6. When cleared tasks, she was unsure whether the action had taken effect
+Quotes:
+1. “Compared to other things I use, it’s better, it’s prettier. I just use a calendar and reminders app.”
+2. “The reflection part was not clear that it is a pipeline to close the day at the end of the day.”
+3. “I just do what this app does in my head, so this would help reduce mental load.”
+4. “Would it show the next step when I am done?”
+5. “Garden looks nice”
+6. “It’s a lot more intuitive trying it the second time”
+
+-- 11 of 19 --
+
+Non Verbal Cues:
+1. She tapped “I started” a few times in a row when nothing happened, then stopped and just looked
+at the screen.
+2. She smiled when the Garden loaded with the fish and stayed on it, scrolling around and clicking
+for a bit before moving on.
+3. On the second run she looked visibly more relaxed, moving through the flow without stopping.
+4. She periodically zoomed in in some places.
+Think-Aloud Insights:
+1. Reflection reads as a separate feature, not the end of the day’s flow
+2. Getting started takes extra steps
+3. Garden looks nice
+4. Liked the swipe to add and delete
+5. Timer overlay blocks the bottom of the screen
+6. Some text was too small for her
+7. It was a lot easier for her to navigate through all the steps in the second try.
+Participant 5 (Recent Berkeley graduate in Economics):
+Hesitation triggers:
+1. Did not start with the Morning Briefing for Task 1, explored freely, then went to This Week to
+add tasks manually.
+2. Paused at “Start 5 min,” unsure if it started the task or only a timer.
+3. Paused at “Start weekly briefing,” unsure what it did.
+4. Went looking for a sound/alarm setting and could not confirm one existed.
+Quotes:
+1. “What’s the today’s anchors section?”
+2. “What does start in five minutes mean? It takes five minutes to do?”
+3. “The garden section, I didn’t know what it was until I looked at it more. I think generally just
+getting used to how everything works together, it’s organized, it just takes a bit of getting used to”
+4. “For the day section here, maybe having Friday or Saturday still listed, because on the main slide
+it’s listed by Friday, Saturday, Sunday. So having both the date but also the day of the week could
+be useful, just like referencing.”
+5. “I like the reflection section and also it includes health stuff like steps of the day which a lot of
+people are trying to keep up with. And also just reflection of what got in the way, it helps you
+focus on, okay, I identify the problem, but now I have to solve that going forward”
+Insights:
+
+-- 12 of 19 --
+
+1. Terminology ambiguity, “Anchor” is not self-explanatory, the participant had to ask what Today’s
+Anchors meant and did not recognize “Start weekly briefing” as an action
+2. Timer duration ambiguity, it’s unclear whether “Start 5 min” means the task takes five minutes, or
+is a five minute focus block, also unclear whether duration is adjustable or has an audible end.
+3. Wants time-block visualization, the participant plans by blocking hours in a calendar and wants
+duration shown spatially, not only as a countdown.
+4. Feature discoverability, Garden’s purpose only became clear after exploration, overall the app
+“takes getting used to”
+5. Positive (reflection and health tracking) reflection framing (identify what got in the way, then
+solve it) and step/sleep logging were the standout liked features
+6. Requested that the This Week day strip show both weekday name and date together for easier
+referencing.
+Thematic Coding
+Code 	What it captures 	Participants
+A. Invented
+terminology/vocabulary
+Product-specific words like choose an
+“Anchor” do not map to a recognizable
+action that it represented
+P4, P5, P2
+B. Duration as label was
+not intuitive
+“Start 5 min” reads as task length, instead
+of a start a short timer button
+P4, P5, P1
+C. Ambiguous check
+affordance
+Unclear what tapping a circle or icon
+commits to
+P1, P4
+D. Trapped in the timer 	No early finish/exit, and the timer overlay
+sometimes blocks the bottom part of the
+screen
+P4
+E. Irreversible state 	“I started” could not be undone or edited 	P4
+
+-- 13 of 19 --
+
+F. Silent action, and no
+end-of-session signal
+Clearing tasks did not give clear
+confirmation it happened. No sound,
+vibration, or alert when the timer is up.
+P1, P4, P5
+G. Hidden closing step 	Reflection is not easily found and
+understood as the day’s closing screen
+P4, P3
+H. Depth only found on
+second look
+Core app value surfaces only after second
+exploration
+P4, P3, P5, P2
+I. Missing time structure 	Wants due times, ordering, reminders, day
+plus date
+P1, P5, P4
+J. Visual design including
+the “Garden” screen was
+well-liked
+Aesthetics and the garden metaphor are
+praised and stood out as the unique feature,
+and said to help motivate
+P4, P2, P5
+K. Reflection framing
+valued
+Naming what got in the way, plus health
+logging was liked
+P5, P4
+L. Reduces mental load,
+Structure appreciated
+Externalizing what users currently hold in
+their head was helpful to reduce
+overwhelm. Organization and breaking
+things down make sense once seen, on a
+second attempt.
+P3, P4, P5
+M. First-step suggestion
+was liked, but users want
+control over the
+breakdown, or show future
+steps
+The single suggested first step is
+appreciated as a starting push, but users
+want to go further themselves and add their
+own detail
+P2, P3, P4
+
+-- 14 of 19 --
+
+Grouping
+Group 	Codes 	Pattern
+1. Not knowing what an action
+will do
+A, B, C 	Users could not always tell what an action would
+produce before pressing it
+2. Not knowing what happened
+and getting back out
+D, E, F, I After acting on some buttons, users got no clear
+confirmation (with completing tasks), no time cues
+(when timer ended), and no way to reverse or exit (out
+of the timer).
+3. Reaching the valued features G, H, J,
+K, L, N
+The features users valued or liked the most (like the
+Garden, and Reflection screen) were the ones they
+found last
+Groups A, B, C cluster on labels that do not communicate their action properly. D, E, F, I
+cluster on the system not responding as wanted, or not letting users back out. G, H, J, K,
+L, M cluster on the app’s unique payoff not being clear at the start.
+Three Usability Themes
+Theme 1: Anchor’s labels describe the app’s own concepts rather than the action they
+perform, so users cannot predict what a certain button will do.
+Codes: A (invented terms), B (duration as label), C (ambiguous check affordance)
+3 participants stalled on at least one label, and in each case the confusion was about what the label meant
+and what the outcome would be.
+A. P4 stopped at “choose an anchor,” did not recognize the word as meaning “task,” and suggested
+renaming it. P5 questioned “What’s today’s anchors section?” and later paused at “Start weekly briefing,”
+not reading it as an action they could take. P2 questioned whether a feature was even part of the flow:
+“Focus session…? Is that part of this?”
+B. “Start 5 min” label was the most consistent misread in the user study, across three participants. P5:
+“What does start in five minutes mean? It takes five minutes to do?” P1 said both possible readings
+without being able to choose between them: “Is the time like a reminder for you in 25 minutes you should
+start this task or is it this task will be 25 minutes long, and you’re setting the timer?” and separately
+guessed “Maybe it’s telling you how long the task is?” P4 also paused at the same button, unsure whether
+it started the task itself or only a timer.
+C. Some button’s outcomes were uncertain. P1 hovered over a task circle and asked “If I click this, would
+it be accomplished or?” P4 also hesitated at the same control, unsure what state a tap would commit her
+to.
+
+-- 15 of 19 --
+
+The language/terms used that gives this Anchor app its identity is the same language that slows use for
+first-time users, and the problem is mostly at the moment of initiation, which is also the moment our
+target users already struggle with.
+Insight: To make the app more usable, we should use terms the user is already familiar with, like simply
+using “Choose 3 tasks” rather than “Choose 3 Anchors.”
+Theme 2: Lack of clear app-status feedback, and ability to undo or back out
+Codes: D (trapped in the timer), E (irreversible state), F (silent action, no end signal), I (missing time
+structure)
+This theme rests most heavily on P4, who is our closest match to the target user.
+D. P4 finished a focus session early and found no way to end it, then no way to leave the timer
+screen at all. She also noted the timer overlay blocks the bottom of the screen, removing her
+navigation while she was already stuck.
+E. She tried to reverse the “I started” state and stopped when nothing responded, and later
+wanted to edit a task after marking it started, with no path to do so.
+F. She cleared her tasks and could not tell whether the action had taken effect. The same absence
+of signal appeared at the end of a session as well, where P1 asked “Will it ring when it’s over?”
+and said “It might feel like an extra step because I use Google Calendar or personal alarms, so
+it’s nice to have the actual physical sound like vibration…for this one, you have to check your
+phone to see when time is up.” P5 went looking for a sound or alarm setting that did not exist.
+I. Beyond the session itself, time is largely invisible. P1 asked for it twice: “When adding your
+task, adding a specific time so they’re like in order would be better” and “Alarm setting or
+something when you’re tasked, I think adding a time factor like 10 minutes pretty much to be
+your reminder part.” P5 wanted the This Week strip to show both weekday and date: “having
+both the date but also the day of the week could be useful, just like referencing.” P4 asked for
+due dates on task rows and the ability to extend them.
+Insight: For a user group whose central difficulty is starting, a system that makes a premature or
+mistaken start irreversible or silent would lower the chance of them trying at all.
+Theme 3: The features users valued most were the ones they discovered last
+Codes: G (hidden closing step), H (depth only found on second look), J (visual design and
+Garden), K (reflection framing valued), L (reduces mental load, structure appreciated), M.
+(First-step suggestion was liked, but users want control over the breakdown, or show future
+steps)
+
+-- 16 of 19 --
+
+The evaluation found genuine enthusiasm for Anchor’s core values, but found it is not easily
+accessible during the first run.
+J. The Garden drew the most consistent unprompted praise, as it was not part of the initial 3 user
+tasks. P2 said: “I like that there’s a visual to like, I guess, visualize your progress and it gives a
+metaphor for like this and then maybe you’ll get it to see more beautiful as you work through it.”
+P4 also said the Garden looks nice, and thought it was the unique feature in the app that made it
+prettier, and rated the app against her current stack saying “Compared to other things I use, it’s
+better, it’s prettier. I just use a calendar and reminders app.”
+L. P4 named the core value of the app when saying “I just do what this app does in my head, so
+this would help reduce mental load.” P5 liked the organization once understood, and P3
+recognized the structure as “a homepage for future oriented stuff.”
+K. P5 liked the reflection part the most saying “I like the reflection section and also it includes
+health stuff like steps of the day which a lot of people are trying to keep up with. And also just
+reflection of what got in the way, it helps you focus on, okay, I identify the problem, but now I
+have to solve that going forward.”
+G. Yet P4 never navigated to Reflection unprompted and would not have thought to look for it:
+“The reflection part was not clear that it is a pipeline to close the day at the end of the day.” She
+recommended surfacing it on the Today page.
+P3 described the same problem broadly saying “It felt like off the bat, kinda todo notes app, not
+apparent until I dig more deep than that more like reflection and breaking things down.”
+H. P5 on the Garden: “The garden section, I didn;t know what it was until I looked at it more. I
+think generally just getting used to how everything works together, it’s organized, it just takes a
+bit of getting used to.” Similarly, P4 said “It’s a lot more intuitive trying it the second time,”
+showing that there is a learning curve, even if short.
+M. The first-step suggestion is the one differentiator 3 users encountered immediately, and it was
+received well. P3 said “Part of me wants to write more like a description, but I do like the first
+step suggestion,” and P2 and P4 wanted it to go further, with P2 saying “I’m wondering if it
+would tell me the following tasks after the first step... because like thesis research is like a really
+broad thing,” and P4 asking “Would it show the next step when I am done?” Both wanted more
+control over the breakdown rather than less of it, which suggests the feature is working and users
+want more of it.
+It also shows that the app’s approach works when it appears at the point of use rather than behind
+a tab you have to navigate.
+Insight: Anchor’s differentiating features are useful, but for first time users, the app can feel like
+another to-do list. Users have to spend effort learning it before reaching the reflection,
+
+-- 17 of 19 --
+
+breakdown, and visual garden progress that make it worth using. Adding a guided walkthrough
+might be helpful for first time users. We can also clarify language and lessen text to make the
+signifying buttons stand out.
+5) Next Steps & Future Iterations
+1. Add a guided walkthrough that teaches the daily loop on first open
+Finding: Every participant needed a second pass before the app made sense (Code H). P4 said
+“It’s a lot more intuitive trying it the second time.” P5 said “generally just getting used to how
+everything works together, it’s organized, it just takes a bit of getting used to.” P3 took roughly
+two minutes to discover he could set a date while adding a task, ending with “It took me around
+2 minutes to figure out this, but now I feel good about it.” P4 never opened Reflection on her
+own, partly because nothing prompted her to (Code G).
+Change: Add a short first-run walkthrough that runs the full loop once with sample content:
+morning briefing, pick three, start a session, then reflection. The app already succeeds on second
+use, so the goal is to deliver the second-run experience on the first run.
+2. Rename product-specific labels to familiar action words
+Finding: All five participants stalled on at least one label (Code A). P4 did not know what
+“choose an anchor” meant and suggested “choose a task.” P5 asked “What’s the today’s anchors
+section?” and did not read “Start weekly briefing” as an action.
+Change: Rename “Anchor” to “Task” or “Today’s 3” in the interface, keeping “Anchor” as the
+app’s name rather than its vocabulary. Rewrite section headers as actions (“Plan my week”
+instead of “Start weekly briefing”). Retest whether new users can state what each button does
+before pressing it.
+3. Make every action reversible and confirmed
+Finding: Codes D, E, F. P4 finished a session early with no way to end it and no way to leave the
+timer screen, tried to undo “I started” and got no response, and cleared her tasks without being
+able to tell whether it worked. The timer overlay also blocked the bottom of the screen while she
+was stuck.
+Change: Add a “Done” and an exit control to the timer, make “I started” tappable to undo and
+the task editable afterward, and add a confirmation message plus undo option when tasks are
+cleared. Keep navigation visible during a session.
+4. Add notifications and optional alarms/vibration so the app reaches users when they are
+not in it
+
+-- 18 of 19 --
+
+Finding: Three participants went looking for an end of session signal that did not exist (Code F).
+P1 asked “Will it ring when it’s over?” and explained “It might feel like an extra step because I
+use Google Calendar or personal alarms, so it’s nice to have the actual physical sound like
+vibration…for this one, you have to check your phone to see when time is up.” P5 searched for a
+sound setting and could not confirm one existed. P1 also asked for alerts ahead of tasks: “Alarm
+setting or something when you’re tasked, I think adding a time factor like 10 minutes pretty much
+to be your reminder part.” Separately, P4 never opened Reflection on her own, because nothing
+prompted her to. (Code G).
+Change: This was initially a design choice to not add an alarm so as to not pull a user out of a
+focus zone. However an optional alarm setting would still be good for users that need it.
+Add sound and vibration when a focus session ends, with a screen-on option so the countdown
+stays visible. P2 user also mentioned a subtle “alarm” using the garden metaphor, so the user is
+not pulled out of their tasks. Add a configurable reminder before a task is due. Add morning and
+evening notifications that open the briefing and the reflection directly, which also solves the
+discovery problem for the closing step.
+5. Show due dates on tasks, and let users edit deadlines and catch missed ones
+Finding: Three participants wanted time attached to tasks (Code I). P1 asked twice: “When
+adding your task, adding a specific time so they’re in order would be better.” P5 wanted clearer
+date referencing: “having both the date but also the day of the week could be useful, just like
+referencing.” P3 wanted calendar context while entering tasks: “When I’m editing this (tasks),
+part of me wants to see the calendar…cuz it’s easier to add.”
+P4 wanted due dates shown on task rows and the ability to extend them if they received an
+extension on an assignment. P4 also noticed that missed deadlines that you never added did not
+rollover.
+Change: Show the due date/time on each task row, and let users edit or extend it in place, and
+also give them the ability to reorder tasks. Roll missed deadlines forward into the next day’s
+briefing rather than letting them disappear silently, flagged as overdue so the user decides
+whether to reschedule or drop them. Show weekdays and date together in “This Week” screen.
+
+-- 19 of 19 --
+

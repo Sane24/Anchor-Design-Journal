@@ -1,0 +1,384 @@
+Sampurn Bhowmick, Na Mi Kim, Madison Lee, Thanhbinh Nguyen, Reed Yalouh
+COMPSCI 160
+Summer 2026
+July 13, 2026
+Project Milestone 1: Needfinding
+1. Experience You Are Planning to Redesign:
+We are redesigning the experience of starting and completing work for people with mental health
+challenges such as ADHD, anxiety, or depression. Our focus is on how people regulate focus,
+motivation, and emotions through virtual systems, physical spaces, and personal routines, and
+how these supports can be improved to reduce overwhelm and make progress feel more
+achievable.
+2. Needfinding Overview
+We recruited non-CS 160 students and recent graduates with ADHD, anxiety, depression, or
+similar mental health challenges. These participants were chosen because they regularly navigate
+demanding work and school responsibilities while managing their mental health, which makes
+them representative of the users we hope to support. Our redesign aims to provide them with
+positive motivation, task guidance, and stress management.
+During each session, we observed how the participants began working on a real work or study
+task in their natural environment. Some participants allowed us to take notes on their home work
+space. We then conducted semi-structured interviews around their productivity habits, challenges
+when starting and completing tasks, sources of stress, and strategies and tools they use to stay
+organized.
+We completed seven observation and interview sessions:
+○ Nami’s session 1 (in-person) : High school student with busy schedule
+○ Nami’s session 2 (in-person) : Undergraduate Cal student with ADHD and
+depression
+○ Sam’s session (online): Roommate with self-diagnosed anxiety
+○ Reed’s session 1 (in-person) : EE student who struggles with anxiety
+
+-- 1 of 15 --
+
+○ Reed’s session 2 (in-person) : Senior that struggles with OCD, ADHD,
+○ Madison’s session (in-person): Roommate with anxiety who has experience with
+therapy
+○ Thanhbinh’s session (in-person): UC Berkeley senior balancing two remote jobs
+and a class.
+3. Participants and POV Statements
+Nami Kim’s session:
+Description:
+A high school student, who is in the process of applying for college, is interested in maths. He’s
+also in the swimming team, but in the process of recovering from injury, trying to get back to his
+previous level of competition.
+Observations:
+- He only starts doing homework one or two days before the deadline.
+- He used to finish a two-week assignment in one day.
+- Before doing the important task, he usually starts scrolling TikTok, Instagram, watching
+Youtube, or doing nothing in bed.
+- He can finish the task without any breaks, but he has an issue to start.
+- His workaround is to set a time close to the deadline and finish the assignment in one
+setting.
+- He is more disciplined when it comes to swim practice because he has fixed everyday
+practice time and is motivated by peers.
+- He was in the middle of watching youtube videos which looked like some gaming related
+videos before the interview.
+Photo:
+
+-- 2 of 15 --
+
+POV:
+We met participant A, a high school student and a competitive swimmer, who is balancing
+schoolwork, college applications and harcore swim practice. We were surprised to notice that he
+often scrolls through social media instead of doing tasks earlier. We wonder if this means that the
+instant dopamine reward from social media attracts him more than the tasks requiring more
+cognitive effort. It would be game-changing to make him feel more excited and less
+overwhelming when it comes to important tasks.
+Nami Kim’s session 2:
+Description:
+A fourth year undergraduate cal Maths major student who enrolls in 20 units in regular semester,
+spending a lot of time reviewing materials and finishing assignments. He likes to study at home
+with a desk setup with laptop, notebook, and coffee. He doesn’t have a steady studying plan or
+use any task regulation strategies.
+Observations:
+● He only starts doing his homework one or two days before the due date.
+● His motivation to do a task is a deadline rather than a personal goal or study plan.
+● When he has multiple tasks, he chooses to do the easiest part first.
+● Before he decides to do the homework, he usually spends 30 to 60 minutes drinking
+coffee, walking or mind-wandering.
+
+-- 3 of 15 --
+
+● He takes a lot of breaks during the task, such as smoking and scrolling Tiktok videos.
+● He uses LLM to understand the material and do assignments.
+● He is often distracted by entertainment content or irreverent content while doing tasks,
+but he personally doesn’t view those distractions as issues.
+● He mentions he doesn’t have clear long term goals, but he realizes that he is not efficient
+enough while doing tasks, and hopes to improve his focus and efficiency.
+● He doesn’t compare himself to others.
+● He has depression symptoms, so it’s hard to feel motivated. When it comes to goals
+settings, he sounds lost but still wants to improve himself. The distractions we are
+worried about can be his only dopamine provider.
+● He mentions he has memory loss.
+● The last thing he does before sleeping is watching Netflix or scrolling through social
+media.
+Photo:
+POV:
+We met participant B, who is a fourth year undergraduate maths student, suffering from ADHD
+and depression. We were surprised to notice that he only starts doing the tasks one or two days
+before the deadline without a healthy study plan and constantly spends one hour to mentally
+
+-- 4 of 15 --
+
+preparing to actually start doing the task, and constantly takes breaks during the tasks. We
+wonder if this means that tasks can be stressful for him. It would be game-changing if we help B
+to get in the mood to start doing tasks without pressure.
+Madison Lee’s session:
+Description: A fourth-year undergraduate student studying environmental economics and public
+policy who balances coursework, research projects, an internship, and personal responsibilities.
+She has experience with both in-person and virtual therapy services mostly through University
+Health Services’s Counseling and Psychological Services (CAPS) and relies heavily on
+self-organization and time management strategies to manage competing priorities. She often
+works independently and creates her own systems for staying on top of responsibilities.
+Observations:
+● The participant described struggling most with large, ambiguous assignments where
+expectations were unclear.
+● During an internship literature review project, changing supervisors and unclear project
+structure made it difficult to know where to begin.
+● She realized that not breaking the project into smaller tasks made it harder to estimate
+time, prioritize steps, and avoid last-minute stress.
+● She tends to delay tasks with low external accountability, such as laundry, meal
+preparation, and household chores.
+● She says she gets distracted easily, especially by addicting games on her phone
+● When overwhelmed, she often prioritizes urgent academic or professional responsibilities
+over personal maintenance tasks.
+● She uses writing as a workaround to reduce mental overload by turning large
+responsibilities into smaller, measurable action items.
+● Observation: She worked from a kitchen island with her laptop, iPad, and phone, kept a
+mug nearby, and balanced multiple activities. She analyzed a report on San Francisco
+unions, took notes in Google Docs, and kept entertainment (“The Maid” on Netflix)
+running in another tab. She frequently changes work locations and often combines tasks,
+such as eating dinner while responding to emails.
+
+-- 5 of 15 --
+
+Photo:
+POV: A fourth-year student balancing multiple high-priority commitments needs a way to break
+down and organize large, unclear responsibilities into manageable steps because ambiguous tasks
+increase stress, make planning difficult, and can lead to procrastination when she feels
+overwhelmed by the full scope of her workload.
+Sampurn Bhowmick’s session:
+Description: A recently graduated software developer, newly onboarded at her first job, living at
+home with family. Self-diagnosed with Anxiety, and struggles with getting up and motivation.
+She likes drawing and reading.
+Observations:
+● Asked to start a task she’d been avoiding (calling her eye doctor), she flatly refused. We
+downscoped it to just finding the doctor’s number and insurance details to have it ready
+to call. She did that in about 5 minutes with zero distraction, then never touched the call
+itself. The preparation task wasn’t hard, the call was.
+● Giving a low consequence step like just having information prepared makes it easy to
+initiate.
+
+-- 6 of 15 --
+
+● Breakdown: her own filing system failed her mid-task. The insurance card she expected
+in her “useful info” folder wasn’t there; she had to search her Photos app instead.
+● Workaround: relies on family for the hardest calls, she only got through a Fidelity
+account call by having her brother sit beside her, ready to take over if she got stuck. She
+predicts the eye doctor call will only happen if her mom sits her down and makes her do
+it together. This isn’t just accountability, it’s also a fallback (having someone who can
+step in), which lowers the cost of getting stuck rather than raising the pressure to act.
+● Workaround: she pre-stages the next drawing before finishing her current one, so she
+always has an entry point ready to go, and never starts empty.
+● Workaround: tied a wanted activity (watching videos) to a task she avoids (drawing), so
+the reward gates the behavior.
+● Breakdown/rejection: she tried the Habitica app and dropped it, because self-checked
+boxes felt fake to her and killed her motivation rather than building it.
+● She fabricates fake deadlines (“I’ll call at three”) to manufacture urgency that isn’t there.
+● Tension she named herself: she wants an AI agent to make the call for her, rather than
+doing it herself.
+Photo:
+Preparing insurance information and doctor’s number to call to be ready to take the call.
+POV: She is a recent grad managing anxiety and motivation on her own terms, and she needs a
+way to give open-ended or unscheduled tasks a real start and end point, because she already has
+everything else required to act, the number, a written script, her insurance info, yet one
+
+-- 7 of 15 --
+
+unscheduled task has sat undone for a year while she absorbs daily discomfort rather than make a
+five-minute call.
+Reed Yalouh Session 1: Jacob
+Description:
+A recent UC Berkeley electrical engineering graduate transitioning from externally structured
+student life into a more self-directed period. He is currently looking for a job and is highly
+motivated by meaningful technical projects, but struggles to begin tasks when he does not see a
+compelling purpose or reason to do them.
+Observations:
+● His mornings currently have little external structure. After waking up, he often scrolls
+through social media and takes roughly 30 minutes to get out of bed.
+● Without a meaningful task or clear next step, he is more likely to turn to immediately
+rewarding activities such as YouTube, social media, talking with friends, or online chess.
+● Tension: External obligations made him feel less free as a student, but the absence of
+external structure after graduation leaves him with less direction.
+● He was significantly more productive when working on his invention because he cared
+deeply about the project and naturally used task lists to maintain momentum.
+● Breakdown: Organization alone does not create motivation. He can know what needs to
+be done, record it clearly, and still avoid beginning it.
+● Workaround: He uses the desktop Notes app as a lightweight project-management
+system to identify dependencies and prioritize tasks by importance.
+● His workspace itself is relatively simple and functional. The larger barrier appears before
+work begins: without purpose, urgency, or a clear next action, immediate gratification
+becomes more appealing.
+Workspace Observation:
+He took us through his room, his primary workspace, and showed us how he uses the desktop
+Notes app to organize tasks, dependencies, and priorities. The contrast between his current
+unstructured job-search period and his highly motivated work on his invention suggested that
+purpose and a clear next action matter more to him than elaborate productivity systems.
+
+-- 8 of 15 --
+
+Me unpacking his behavioral patterns with him after we watched him take us into his room
+POV:
+A recent Berkeley engineering graduate transitioning from externally structured academic life
+into a largely self-directed period needs a way to turn unstructured time into a meaningful and
+compelling next action because he already knows how to organize and track tasks, but without a
+clear sense of purpose or urgency, immediate gratification becomes more appealing than starting
+responsibilities he already knows he should complete.
+Reed Yalouh Session 2: Cathrine
+Description:
+A senior who is completing the final year of her bachelor’s degree through a dual-degree
+program. Outside academics, she has sung throughout her life and is deeply interested in film,
+screenwriting, and the entertainment industry. She describes herself as highly ambitious, anxious,
+routine-driven, and intensely work-oriented. She reported having OCPD and experience with
+several forms of therapy.
+Observations:
+● She is extremely routine-driven and plans her week in detail, writing down tasks and
+calculating the time available for working and sleeping.
+
+-- 9 of 15 --
+
+● Workaround: She deliberately creates designated work locations so that particular
+environments become associated with productivity, including the Great Hall at
+International House and a specific coffee shop at home.
+● Academic work is generally easy for her to start, while administrative or emotionally
+uncomfortable tasks can remain unfinished for long periods despite her understanding
+their importance.
+● Tension: She is highly disciplined and can become deeply absorbed in meaningful work,
+yet this discipline does not transfer equally to all tasks. She once had a week-long conflict
+with her mother because she could not bring herself to spend five minutes cleaning a
+table.
+● Workaround: She said she always needs an “entry point” into a task. Coffee, an
+organized notebook, charged devices, a clean workspace, and a familiar location help
+create a recognizable beginning to work.
+● Her mental energy is often consumed by concerns outside the immediate task, including
+finances, future goals, relationships, and interpersonal anxiety.
+● Workaround: She uses music, humor, conversations with others, and reminders of
+difficult experiences she has already survived to regulate her emotions and regain
+motivation.
+Workspace Observation:
+She worked from a clean, uncluttered setup with a highly organized notebook and little visible
+disorder. She appeared to prepare deliberately before beginning: making sure devices were
+charged, having coffee available, and establishing a clear entry point into the work.
+Her choice of location was also intentional. Rather than working anywhere, she repeatedly
+returns to specific environments and allows them to become psychologically associated with
+focus. She described the Great Hall at International House as one such place and uses a specific
+coffee shop in the same way when she is home.
+She frequently checked her phone and email but did not treat all social interaction as a
+distraction. Instead, she said that chatting with people around her can help maintain focus.
+Despite her detailed planning system, organized notebook, clean workspace, and strong
+discipline, she still experienced significant difficulty initiating certain simple tasks.
+Photo:
+
+-- 10 of 15 --
+
+Her taking us through her work flow in the Great Hall in International House (planning her
+week)
+POV:
+A highly organized senior who can sustain intense focus on meaningful work needs a way to
+create a safe and compelling entry point into emotionally resistant tasks because detailed
+schedules, strong discipline, and knowing exactly what needs to be done are sometimes still
+insufficient to make her begin.
+Thanhbinh Nguyen’s session
+Description:
+A UC Berkeley senior majoring in Society & Environment and minoring in CalTeach, currently
+balancing a 40-hour work week as a full-time participant in the CalTeach Summer Research
+Institute and working part time weekdays for a consulting group. She has symptoms of
+
+-- 11 of 15 --
+
+undiagnosed ADHD and depression. but does not utilize the CAPs system, but relies on Tang
+Center for different types of medication. To balance her work life and the class that goes along
+with the research, she enjoys working out at RSF and home, aside from gaming.
+Observation + Interview Notes:
+- The participant described struggling most with large, ambiguous assignments where
+expectations and terminology were unclear, leading to high stress and anxiety.
+- During a recent research paper assignment observation, structural confusion arose: “What
+is the difference between an introduction and literature review? Can it be two paragraphs
+only, like for each?”
+- Realizing the lack of understanding makes it harder for her to finish paragraphs until the
+stress from extreme deadline pressure gets her to a flow state.
+- She distracts from the stress through food, binging snacks, or cooking meals.
+- When overwhelmed by the pressure of her schedule and research coursework, she often
+falls into digital loops, losing track of time while gaming, doomscrolling, or hunting for
+the perfect song.
+- Workaround: Writing down tasks and a to-do list through Google Docs and typing rough
+ideas while listening to music.
+- Breakdown: When assignment deadlines come down to the final hours, she feels
+overwhelmed and heavily relies on family and friends to validate her capabilities and
+provide motivation.
+Google Doc launched to write up a research paper, with a small tub of ice cream to stress eat
+and water bottle to cleanse palate.
+
+-- 12 of 15 --
+
+Consent Note: The participant did not consent to having a video recording/image of them, but
+work setup is allowed and depicted above.
+POV:
+We met J, who is a senior majoring in S&E and doing summer research under the CalTeach SRI
+program, while navigating undiagnosed symptoms of ADHD and depression. We were surprised
+to notice that she only starts working on and finishing up her assignments the day of the
+deadline, despite the daily plans she makes on her Google Doc. We wonder if this means that the
+assignments are too hard for her, or if financial stress leaves her too overwhelmed to think about
+the work. It would be game-changing if we could help J find more motivation and feel like
+research and assignments are fun tasks, just like the games she plays when she unwinds.
+4. HMW Questions
+1. HMW help students reduce external distractions, such as from social media, when they
+are trying to focus on urgent work or academic tasks?
+2. HMW help students break large, ambiguous projects into clear, manageable steps?
+3. HMW help students reduce cognitive overload that disrupts their focus before they begin
+procrastinating?
+4. HMW help students overcome the mental barrier of starting overwhelming tasks?
+5. HMW lower the barrier of starting unscheduled and open-ended tasks that have no clear
+start or end?
+6. HMW help students create meaningful progress tracking systems that reflect genuine
+effort and achievement?
+7. HMW build social accountability to help someone follow through on tasks they would
+otherwise avoid?
+8. HMW help people manufacture real urgency when a task has no immediate deadline?
+9. HMW help people find their way back to a task after getting pulled into a distraction?
+10. HMW help someone design around a moment right before avoidance wins, instead of
+relying on willpower once they are already in it?
+11. HMW help students separate academic focus from external financial or personal anxieties
+so they can engage more clearly with their work?
+12. HMW turn a student’s social circle into an active motivational engine rather than a
+passive comfort zone to get the task done faster or started earlier?
+
+-- 13 of 15 --
+
+13. HMW help students balance personal well-being and productivity during high periods of
+stress?
+5. Solution ideas
+1. Turn distracting apps to gray-scale, and keep the essential apps in color. (HMW 1, HMW
+10)
+2. Buddy system with photo or screenshot progress sharing (matching anonymous or with
+friends). Replaces self checked boxes with something a friend can actually see. (HMW 7,
+HMW 6)
+3. Growth garden where verified sessions grow faster than self reported ones. Keeps the
+reward system but doesn’t let it be gamed or fakeable the way Habitica or Finch do, and
+adds an accountability aspect. (HMW 6, HMW 12, HMW 8)
+4. 3 main tasks to focus on a day (HMW 5, HMW 4, HMW 3, HMW 2)
+5. Weekly and morning briefings pulled from gmail, slack, calendar. Turns scattered
+“something is due” dread into one bounded plan. (HMW 5)
+6. If-then rule builder tied to a “danger window” where users name their own triggers and
+actions they can take to overcome it. If I start doomscrolling, I will set a 5 minute timer to
+reset. (HMW 10, HMW 9, HMW 1)
+7. Tiny first step generator on every task. Break a task down to one opener to start with.
+(HMW 5, HMW 3, HMW 4)
+8. Physical sticky note prompts. App suggests writing just the first step on paper and
+placing it somewhere visible, externalizing the task instead of relying on memory and
+adding cognitive load. (HMW 5, HMW 3, HMW 11)
+9. 60-second text-prompt where the user writes out all of their current academic and/or
+non-academic worries (like rent or financial aid) to keep them in a hidden tab for the
+session and prevent distractions (HMW 11, HMW 3).
+10. Browser extension that connects to a music streaming platform and only plays when the
+user is active on their assigned task page. If they navigate away to a distracting site, the
+music immediately stops playing, warns them to go back to work, and plays a distinct
+timeout alert sound. (HMW 9, HMW 10)
+
+-- 14 of 15 --
+
+11. A user-chosen chatbot encourages users as a friend, a role the user wants it to be, or a
+therapist encourage users to start a task, help break the down the task, provide emotional
+support (HMW 2, HMW 3, HMW4, HMW 5, HMW 6, HMW 7, HMW 8, HMW 9,
+HMW 10)
+12. E-ink phone case/ pocket size e-reader that attaches to the back of your phone using
+magsafe. Can be used as a second screen. Flip your phone when you get distracted.
+(HMW 9, HMW 10)
+13. A shared reward systems when a group of friends set their personal tasks can unlock the
+reward like gaming online or hanging out only when everyone finishes their tasks (HMW
+12)
+14. Thought dumping tool for users to write down their worries and tasks occupying their
+mind. The system organizes them into categories (e.g., “do now,” “do later,” or “not
+important”) (HMW 3, HMW 4)
+
+-- 15 of 15 --
+

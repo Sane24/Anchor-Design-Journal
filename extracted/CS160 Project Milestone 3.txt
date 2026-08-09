@@ -1,0 +1,269 @@
+Sampurn Bhowmick, Na Mi Kim, Madison Lee, Thanhbinh Nguyen, Reed Yalouh
+COMPSCI 160
+Summer 2026
+July 26, 2026
+Project Milestone 3: A High Fidelity Prototype
+1) Hi-Fi Prototype of single page
+Design 1 – V1 + V2 (Made by Na Mi):
+
+-- 1 of 11 --
+
+Design 2 (Made by Sampurn):
+
+-- 2 of 11 --
+
+Design 3 (Made by Madison):
+2) Critique Session with Group
+Design 1 (Made by Na Mi):
+Positive critique:
+● Well-structured organization of tasks with the first step clearly displayed.
+● Navigation bar icons are easy to distinguish.
+● Strong emphasis on the three main tasks, reducing cognitive overload
+Negative critique:
+● Green and yellow color scheme feels somewhat jarring.
+● Lacks a help or documentation section.
+● Unclear which page is currently active because no navigation icon is highlighted
+Design 2 (Made by Sampurn):
+
+-- 3 of 11 --
+
+Positive critique:
+● Cohesive color palette using sage greens and neutral tones creates a calming,
+wellness-focused aesthetic
+● Effectively supports breaking tasks into smaller steps and clearly communicates user
+progress
+● Navigation icons combine symbols and text, improving clarity and discoverability.
+Negative critique:
+● The “Start 5 Minutes” and “Tomorrow” pills are unclear in purpose
+● Small text, particularly in the welcome section, reduces readability
+● “Add Today’s Tasks” is not clearly distinguishable from the “Start Morning Briefing”
+button
+Design 3 (Made by Madison):
+Positive critique:
+● Cohesive color palette with a clean, light interface.
+● Centrally placed floating "+" button makes adding tasks intuitive.
+● Clear task filter bar (All, To-Do, In Progress, Completed) supports efficient task
+management.
+Negative critique:
+● Notification badges can be visually distracting.
+● The morning screen begins with multiple colorful mood reflection icons, which may
+compete for attention.
+● Missing key productivity features such as task breakdowns, focus/sprint sessions, and the
+ability to check off completed tasks.
+Why we selected design 2:
+We selected Design 2 as our direction because it best aligned with our goal of helping
+overwhelmed students with mental health conditions manage their workload in a calm,
+approachable way. We thought the cohesive color palette would ensure a calming aesthetic and
+could be applied if we implemented the Growth Garden, which is one of our stretch goals. We
+also thought this design emphasized breaking larger tasks into smaller, more manageable steps
+with a visual anchor for focus time, which we hope to keep for our future prototype. For the next
+iteration, we plan to address some usability issues like improving the clarity of the “Start 5
+Minutes” and “Tomorrow” buttons. We also wanted to create a stronger visual distinction
+between the “Add Today’s Tasks” and “Start Morning Briefing.”
+3) Hi-Fi Prototype (Figma)
+
+-- 4 of 11 --
+
+Link to Prototype:
+https://www.figma.com/design/1gJt2z5PtBEJMhIZtZ9dQI/Anchor-App?node-id=0-1&t=N69csg
+twng1NummG-1
+Prototype Authors:
+● Initial Screens: Sampurn
+● Timer + Ambient sound choices: Na Mi
+● This Week: Madison
+● Night Reflection: Thanhbinh
+
+-- 5 of 11 --
+
+4) Critique Session with External Participants
+Participant A (Interviewed by Thanhbinh):
+- Pro: Enjoys the sleep and steps feature
+- “I love how it includes sleep and steps in the night reflection makes it so every essential
+is kept together”
+- Suggested: Water reminder and tracker.
+- Pro: Easy to distinguish colors between week’s activities and plans
+- “ Very beneficial for separating tasks but keeping them together”
+- Pro: Likes the different ambient sound options, and encourages to try to add other sound options.
+- “More options for ambient noise? Maybe the sounds of oceans?”
+- Pro: App was thoughtfully organized.
+- “The font sizes on everything can be read clearly”
+- Con: We can only add time with increments of 5 minutes only.
+- “I’m gonna assume that all tasks are added at 5 minutes but maybe a scroll option like a
+time bar or input so you don’t have to keep adding 5 minutes.”
+- Suggested: Time bar or user input field
+- Con: Restricted to having a green color palette UI.
+- “Green is nice but some people might want different colors”
+- Suggested: Customizable colors
+- Con: Unclear description for morning welcome message
+- “Morning description confusing ‘anchor 1 is next’ assuming it’s the ui name? Anchor?”
+
+-- 6 of 11 --
+
+Participant B (Interviewed by Thanhbinh):
+- Pro: Pretty design
+- “Definitely the design, it feels calming”
+- Pro: Easy “to cooperate with”
+- Pro: Enjoys the timer functionality
+- “I really like that you put a timer in it”
+- Con: Unsatisfied with night description
+- “I think the message in the night reflection bar should be changed”
+- Con: Limited ambient sound options.
+- “There are too little sounds to choose from”
+- Con: Prefers if there are reflection questions to wrap up the day
+- “I’d add some mood questions”
+Participant C (Interviewed by Thanhbinh):
+- Pro: Pretty design
+- “I like the minimalist design, nothing playful”
+- Pro: Concise design
+- “Very clear, just as much text as needed”
+- Pro: Pretty shape choice
+- “The rectangles with rounded corners just look very elegant”
+- Con: Sad color palette:
+- “I’d personally choose a color that’s just a little less sad (?) nothing too vibrant though
+but that’s just personal taste”
+- Con: Inconsistent fonts
+- “I’d stick to one font only”
+- Con: Limited colors:
+- “It’s a huge deal maker or breaker for me.”
+- Suggested: Customizable colors
+Participant D (Interviewed by Thanhbinh):
+- Pro: Detailed subtexts
+- “I like the small labels you used”
+- Pro: App was thoughtfully organized and designed
+- “With the dates, I like how easy it is for me to navigate and distinguish what it was for
+me.”
+- Pro: Versatile app
+- “I like how the sleep hours and steps are combined in one app, because on my phone I
+have to use two different apps” is combined with different features (sleep + steps)
+- Pro: Pretty color palette
+- Con: Finished tasks aren’t easy to distinguish
+- “Cross out tasks when it’s done”
+- Con: Lack target due date
+- “For the assignments, it would be nice to add due date time for assignments so they have
+a target due date”
+
+-- 7 of 11 --
+
+- Con: Unclear rollover task
+- “If possible, I would expand more on the rollover tasks”
+Participant E (Interviewed by Reed):
+- Pro: Easy to understand interface
+- Action: Task list was the first element that caught their attention and helped communicate
+the purpose of the application.
+- “I like that there’s a focus timer because users can add time and decide how long they
+want to focus.”
+- Pro: Pretty design
+- Enjoys the overall color palette and visual design
+- Attracted to the application because it looks clean and easy to use.
+- Pro: Clear and concise design
+- Action: Thinks the colors fit well with the style commonly used in mindfulness and
+time-management applications.
+- Action: Thinks the interface looks sleek and easy to use.
+- Action: Says the text and font sizes are easy to read.
+- “The opening page immediately shows the user’s day-to-day information rather than
+beginning with a list of general actions.”
+- Con: The logo and the meaning of the word Anchor were confusing.
+- Suggestion: “I would add a clearer explanation, tagline, or visual connection between the
+name ‘Anchor’ and the application’s purpose.”
+- Con: Fuzzy interactions with tasks:
+- Action: Unclear where the tasks came from or how they were generated.
+- Action: Sometimes unclear what each task referred to, although this may have been
+because the prototype was not fully functional.
+- Suggested: Clearly identify whether each item comes from Gmail, Calendar, or manual
+entry.
+- Con: Lack of details
+- Action: Expected the application to clearly show tasks, meetings, and deadlines.
+- Action: Expected clicking on a task to open additional information and display the task’s
+details.
+- Suggested: Add an expanded task-details view.
+- Action: Expected to mark a task as complete using a dedicated completion button or by
+deleting it.
+- Suggested: Add a clear completion control and an option to remove tasks.
+- Con: Green color palette UI is not unique.
+- “The color palette looks good but does not feel especially unique compared with other
+mindfulness and productivity applications.”
+Participant F (Interviewed by Reed):
+- Pro: Appealing layout
+- Action: Likes the layout and visual design.
+
+-- 8 of 11 --
+
+- “The buttons are clear and visually appealing because of their rounded shape.”
+- “I feel that the interface is organized and easy to understand.”
+- “The clean layout makes the application approachable.”
+- Pro: Nice color choice
+- “I like the use of green in the interface”
+- Pro: Useful features
+- “The active check-ins from the application would be helpful.”
+- Con: Sad color palette choice
+- “I feel the green color palette alone may not fully communicate the intended energy or
+purpose of the application.”
+- Suggested: “Consider adding blue to communicate trust or yellow to create a more
+energetic feeling.”
+- Con: Lack of call-to-action from logo
+- “The logo does not appear sufficiently intentional or customized to the application.”
+- Suggested: Redesign the logo so that it feels more curated and directly connected to the
+application’s purpose.
+- Con: Lack of target due date for current day
+- Tasks scheduled for the current day do not indicate how much time remains before they
+should be completed.
+- Suggested: “I would add a time tracker or remaining-time indicator to each scheduled
+task.”
+3 Recurring Themes
+Theme 1: Participants wanted more visual customization (5 of 6 participants)
+a. “Green is nice, but some people might want different colors” – Participant A
+b. “I’d personally choose a color that's just a little less sad.” – Participant C
+c. Regarding customizable colors: “It's a huge deal maker or breaker for me.” – Participant
+C
+d. Critiques of “The color palette looks good but does not feel especially unique compared
+with other mindfulness and productivity applications.” – Participant E
+e. “I feel the green color palette alone may not fully communicate the intended energy or
+purpose of the application.” – Participant F
+f. Next Iteration: Our next iteration will explore personalization options with multiple color
+schemes to allow users to tailor the app to their preferences
+2. Participants wanted a more flexible focus timer and wellness features (4 of 6
+participants)
+a. “I really like that you put a timer in it.” – Participant B
+b. “I like that there’s a focus timer because users can add time and decide how long they
+want to focus.” – Participant E
+c. “Maybe a scroll option like a time bar or input so you don't have to keep adding 5
+minutes.” – Participant A
+d. “More options for ambient noise? Maybe the sounds of oceans?” – Participant A
+
+-- 9 of 11 --
+
+e. “There are too few sounds to choose from.” – Participant B
+f. Next Iteration: We plan on making the focus timer customizable by allowing users to
+enter their own focus duration or quickly choose preset lengths. We also plan on
+expanding the ambient sound library.
+3. Theme 3: Some text and interactions were unclear or restrictive? (5 of 6
+participants)
+a. “Morning description confusing Anchor 1 is next.” – Participant A
+b. “I think the message in the night reflection bar should be changed.” – Participant B
+c. “For the assignments, it would be nice to add due date time for assignments.” –
+Participant D
+d. “I would add a time tracker or remaining-time indicator to each scheduled task.” –
+Participant F
+e. “If possible, I would expand more on the rollover tasks.” – Participant D
+f. “Cross out tasks when it's done.” – Participant D
+g. “I'd stick to one font only.” – Participant C
+h. Next Iteration: We plan on revising our “Today” home screen to improve text clarity,
+standardize typography, make completed-task states more visually distinct, add
+assignment due dates, and better communicate how rollover tasks work. We want to
+ensure the interface is more intuitive to help students organize their tasks and understand
+what to do next.
+5) App Name + Logo + Tagline + Description
+App Name: Anchor
+Logo (image author: Sampurn):
+Tagline: Steady the day
+Description: To help users to overcome the feeling of overwhelm and help them to start doing tasks more
+easily and less stressfully by pulling tasks directly from email and calendar, and choosing 3 priority steps
+for the day.
+
+-- 10 of 11 --
+
+6) Development Plan
+Sheets: Anchor Implementation Plan
+
+-- 11 of 11 --
+

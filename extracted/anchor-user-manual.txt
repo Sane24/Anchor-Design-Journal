@@ -1,0 +1,287 @@
+ANCHOR
+USER MANUAL
+PREPARED BY:
+Thanhbinh Nguyen
+REVISED BY:
+Sampurn Bhowmick, Madison Lee,
+Na Mi Kim, Reed Yalouh
+Anchor Development Team
+Version 1.0 | 2026
+
+-- 1 of 12 --
+
+Contents
+1. Introduction & Overview 	3
+1.1 Project Overview & Intended Users 	3
+1.2 Web App Website 	3
+2. Getting Started 	4
+2.1 Visual Interface 	4
+2.2 Account Creation & Login 	5
+3. Key Features & Workflow 	6
+3.1 Setting Daily Focus 	6
+3.2 Tracking Progress 	7
+3.3 Schedule Planning 	8
+3.4 Evening Reflection 	9
+3.5 Managing Integration & Preferences 	10
+4. Known Limitations & Troubleshooting 	11
+4.1 Known Limitations 	11
+4.2 Troubleshooting 	12
+4.3 FAQs 	12
+2
+
+-- 2 of 12 --
+
+1. Introduction & Overview
+1.1 Project Overview & Intended Users
+Imagine walking out of an important lecture right after your professor
+announces a quiz for the next class. You rush to the nearest library, find a
+table, set down your phone and iPad, and adjust your laptop screen to 110°
+only to freeze. Between revising for the upcoming quiz, finishing other
+assignments across multiple classes, and managing commitments outside
+of school, you do not even know where to begin, and doomscrolling will not
+help you progress any further.
+Introducing to you, Anchor, an application that is built to help you in these
+times of decision fatigue. Instead of being overwhelmed with listing your
+endless amount of tasks and having them lost after, Anchor operates on a
+simple, grounded philosophy: you will
+steady the day by limiting your daily
+focus to 3 core tasks, or what we like to call, “Anchors.”
+As you constrain your daily targets to what matters most on the current
+day, Anchor will break the paralysis of what to start, reduce cognitive
+overload, and help turn your stressful and chaotic study sessions into
+calm, intentional progress.
+Intended Users: Students, recent graduates, and independent learners
+looking for a minimalist, low-friction task management tool that prioritizes
+clarity, focus, and daily reflection over endless accumulation of stress.
+1.2 Web App Website
+Anchor is accessible directly in your mobile or desktop browser:
+URL: https://sane24.github.io/Anchor-App
+Github Repository: https://github.com/Sane24/Anchor-App
+1.3 Device and Browser Recommendations
+Target Format: Progressive Web App (PWA), optimized for mobile viewports
+(390px width)
+3
+
+-- 3 of 12 --
+
+Recommended Devices: Mobile smartphones (iOS / Android) or simulated
+mobile web views on desktop
+Supported Browsers: Google Chrome (v110+), Safari (v16+), or Mozilla Firefox
+(v110+)
+Note: On iPhone Safari, the notification reminders require adding Anchor
+to your Home Screen (
+Share -> Add to Home Screen) and opening it from
+there.
+2. Getting Started
+2.1 Visual Interface
+Figure 1: Anchor App Start Page
+4
+
+-- 4 of 12 --
+
+1) Anchor Logo & Slogan: Displays the brand logo and slogan while
+acting as a quick shortcut back to the main
+Today view from
+anywhere in the app
+2) Theme Toggle: Allows you to switch the app to dark or light mode,
+based on your preference
+3) Morning Briefing Banner: Allows you to add your tasks based on
+your choice from what you have entered before
+4) Anchor Management Container: Shows your active daily anchors (up
+to 3 maximum) and provides text input fields or options to import
+tasks from connected calendars and email accounts
+5) Today Tab: Navigates directly to your main daily dashboard
+6) Garden Tab: Displays your long-term progress, consistency streaks,
+and visual growth over time
+7) This Week Tab: Offers a higher-level view of upcoming deadlines,
+scheduled commitments, and week-at-a-glance planning
+8) Reflection Tab: Opens your evening debrief space to review
+completed and planned future anchors and log daily notes
+9) Settings Tab: Accesses account preferences, integration connections,
+and custom display appearance options
+2.2 Account Creation & Login
+Figure 2: Anchor App Settings Page
+5
+
+-- 5 of 12 --
+
+1) Navigate to Settings: Tap the
+Settings icon located on the bottom
+navigation bar
+2) Select Sign In: Tap
+Sign in at the top of the Settings page
+3) Account Credentials: Sign in using an existing account or select the
+option to create a new one
+4) Password Requirements: If creating a new password, ensure it meets
+all of the following criteria:
+a) At least 8 characters long;
+b) At least one uppercase letter (A-Z);
+c) At least one numerical digit (0–9); and
+d) At least one symbol (!, @, #, $, %, ^, &, *, -, _, ?)
+3. Key Features & Workflow
+3.1 Setting Daily Focus
+Figure 3: Anchor App Today and Morning Briefing Page
+1. From the
+Today screen, tap the Morning Briefing banner
+2. Under Today’s possibilities, review Calendar events and unread Gmail
+items pulled in automatically and click to select them as Anchors
+6
+
+-- 6 of 12 --
+
+a. Optional: Type a task into the "Add your own task" field and tap
+the Add button
+3. Select “Use these 3 Anchors” to confirm selections and they will
+appear on the Today screen as your sole focus of the day
+a. Note: Each task lists the first step as a guidance
+4. For each task, you can:
+a. Start a 5-minute Focus Sprint to begin working, and tap the
+audio icon for song choice.
+b. Mark it as Started to indicate you've begun the task.
+c. Mark it as Complete once you've finished.
+d. Edit the Anchor to update its title or details.
+e. Move it to Tomorrow if you want to complete it another day
+Expected result: Your 3 selected Anchors appear on the Today screen,
+replacing the empty state, ready to be tracked.
+3.2 Tracking Progress
+Figure 4: Anchor App Tracking Progress and Garden View
+1. On the Today screen, locate your list of Anchors
+2. Tap the circle beside an Anchor once you’ve completed it
+3. Repeat for each Anchor as you finish it
+7
+
+-- 7 of 12 --
+
+4. Navigate to the Garden tab to view your visual progress for the day
+a. Focus time collected from the timer
+b. Completed Anchors bloom flowers
+c. Anchors finished after being moved from tomorrow open water
+lilies
+d. Completed focus sprints add Koi fish to the pond
+5. Click on the “season of growth” to view overall progress while using
+the app
+Expected result: The counter (e.g., "1 of 3 landed") updates immediately after
+each check-off, and your Garden plant visibly grows as Anchors
+accumulate over time.
+3.3 Schedule Planning
+Figure 5: Schedule Planning and Weekly Briefing Page
+1. Tap the This Week tab from the bottom navigation
+2. Tap Start weekly briefing at the top to see a 7-day summary of open
+tasks and events
+3. Scroll horizontally through the 7-day strip to view upcoming tasks
+and events for the week
+4. Tap a specific day to select it
+5. Review that day’s listed tasks and events
+8
+
+-- 8 of 12 --
+
+6. Tap an individual item for more details
+Expected result: The screen updates to show only the selected day's tasks
+and events, with a clear empty state shown if that day has nothing
+scheduled.
+3.4 Evening Reflection
+Figure 6: Evening Reflection Page
+1. Tap the Reflections tab from the bottom navigation
+2. Review the summary of complete and incomplete Anchors for the day
+3. In Tonight’s notes, log what helped or hindered your progress, sleep
+and steps
+4. Tap “Close the Day” to log your reflection
+a. Optional: Edit the reflection as needed
+Expected result: Unfinished Anchors automatically appear as suggested
+items in tomorrow's Morning Briefing, and your notes are saved to that
+day's reflection log.
+9
+
+-- 9 of 12 --
+
+3.5 Managing Integration & Preferences
+Figure 7: Settings and Preferences Page
+1. Tap the Settings tab from the bottom navigation
+2. Under account, review your signed-in status or tap Sign Out as
+needed
+3. Under appearance, tap a color swatch to change your accent theme
+a. Available themes are soft colored with options of: Sage (Green),
+Lavender (Purple), Ocean (Blue), and Terracotta (Orange)
+4. Under reminders, tap Enable notifications and select allow on the
+browser prompt, toggle Daily reminders on, then set your Morning
+briefing and Night reflection times
+5. Tap Send test notification to confirm it works, if the notifications are
+blocked the card shows instructions for re-enabling them in your
+browser’s site settings (as pictured above)
+6. Under Connections, tap “Connect Google” to link your Calendar and
+Gmail or Disconnect to remove access
+10
+
+-- 10 of 12 --
+
+Expected result: Connection status updates immediately
+(Connected/Disconnected), the app's accent color changes instantly across
+buttons and tabs, and account actions take effect right away with a
+confirmation before anything destructive (like deletion) occurs.
+4. Known Limitations &
+Troubleshooting
+4.1 Known Limitations
+1. Anchor is currently optimized for mobile viewports (390px width). The
+implementation for a dedicated desktop layout is in progress
+2. Gmail messages are filtered using a fixed set of rules to identify
+"task-like" emails; this filtering is not yet user-customizable.
+3. "Continue with Google" sign-in is in progress. A combined Google
+sign-in (linking account creation with Calendar/Gmail access in one
+step) is still being finalized and may not be fully available.
+4. Cafe and Rain sounds during the focus timer need some
+improvement.
+5. Email verification is not enforced. New accounts are not currently
+required to verify their email address before signing in.
+6. Account deletion has not been implemented.
+7. Forget password leads to a blank screen on the app, as we are still
+making adjustments to Supabase.
+8. Anchor limit is fixed. Users can select a maximum of 3 Anchors per
+day, and this limit is not currently adjustable.
+9. Notifications are blocked by the browser, unless the tab has been
+granted permission.
+4.2 Troubleshooting
+Issue 	Solution
+No tasks or events are
+showing
+Add a task manually or connect to your
+Google account to import calendar events
+11
+
+-- 11 of 12 --
+
+and unread email as tasks. Or “try sample
+Anchors” to fill with sample data
+Unauthorized to sign in and
+connect Google Account
+Request through Github to get email access
+as a test user
+Notifications are blocked for
+this site.
+To turn them on, open your browser's site
+settings (the icon next to the address bar),
+allow Notifications, then reload this page.
+A reminder has never arrived 	Set notification to allow
+Mobile design on desktop
+screen
+Desktop implementation is still in progress.
+Change the width of the screen to simulate a
+mobile device. Or in the DevTools panel that
+opens, look for a small icon that looks like a
+phone/tablet outline near the top-left of the
+DevTools panel (next to the Elements/Console
+tabs)
+4.3 FAQs
+1) Can other users see my tasks or progress?
+No. Your plans, reflections, and focus sessions are private to your
+account.
+2) What happens to tasks I don't complete?
+They roll over automatically and appear as suggestions in the next
+day's Morning Briefing.
+3) Can I add another task after having three added already?
+No. You can only add at most 3 tasks, as we don’t want you to be
+overwhelmed with tasks.
+12
+
+-- 12 of 12 --
+

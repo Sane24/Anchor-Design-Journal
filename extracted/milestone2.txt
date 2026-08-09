@@ -1,0 +1,646 @@
+Sampurn Bhowmick, Na Mi Kim, Madison Lee, Thanhbinh Nguyen, Reed Yalouh
+COMPSCI 160
+Summer 2026
+July 16, 2026
+Project Milestone 2: Lo-Fi Prototyping
+1. Sketching & Brainstorming:
+Each team member independently selected two rough ideas from Milestone 1 that they wanted to
+explore further. Using divergent brainstorming techniques, we expanded each concept into 2-3
+distinct variations. Our brainstorming explored different interaction modalities, including web
+and mobile applications, browser extensions, wearable smart glasses, AR/VR, and physical
+interfaces.
+Rough Idea 1: Turn distracting apps to gray-scale, and keep the essential apps in color.
+Distinct idea 1: Users can select the apps that they think are distracting. The app button and
+interfaces of the rest of the apps keep colorful, but the longer the users stay on the distraction
+apps, the grayer the interfaces and the app buttons become.
+Distinct idea 2: Users can customize all their apps to either essential apps or distraction apps. As
+soon as they open the distraction apps, the phone will keep vibrating until they stop using the
+distraction apps.
+
+-- 1 of 30 --
+
+Distinct idea 3: Users can customize all their apps to either essential apps or distraction apps.
+After the users wear the meta glass, the distraction apps will turn gray through glass, and users
+can choose their favorite virtual themes, such as Star Wars, or ocean world. The longer they
+study, the more vivid the virtual space is.
+Rough Idea 2: A user-chosen chatbot encourages users as a friend, a role the user wants it to be,
+or a therapist encourages users to start a task, help break them down, and provide emotional
+support.
+Distinct idea 1: Phone or computer plugin AI chatbot to guide and encourage users to do tasks
+and help users stay focused when they switch to distraction apps/websites. In addition, users can
+chat with the chatbots when they are emotional.
+
+-- 2 of 30 --
+
+Distinct idea 2: Plugin customised chatbot’s voice, speaking speed, and tone as a therapist,
+friend or help users to manage their tasks.
+Distinct idea 3: Users can see the customized chatbot when they wear their AR/VR glasses. It
+can guide users to their essentials and stay in the virtual world studying with the users as a study
+buddy.
+
+-- 3 of 30 --
+
+Rough Idea 3: Visual progress tracker with more progress when task is verified. Keeps the
+reward system but doesn’t let it be gamed or fakeable the way Habitica or Finch do.
+Distinct idea 1: Growth garden where verified sessions grow faster than self reported ones. Each
+task is a seed or plant. When the user completes a verified work session, the plant grows faster,
+blooms, or gains fruit. Self-reported work still grows the plant, but more slowly. Optional
+ambient noise.
+Distinct idea 2: Progress Journey Map. Progress is shown as movement through the map with
+the immediate next step. Each task is a trail, staircase, or map. The user moves a character
+forward with each real work session, passing checkpoints like “started,” “outline,” “draft,”
+“done.”
+
+-- 4 of 30 --
+
+Rough Idea 4: Unified tasks briefings and schedule recurring task prompts that turn scattered
+responsibilities into a bounded daily plan.
+Distinct idea 1: Weekly and Morning Briefings Dashboard. The system pulls together items
+from Gmail, Slack, and Calendar into one bounded plan. A weekly briefing helps the user
+preview what is coming, and a morning briefing narrows it into today’s top tasks.
+Distinct idea 2: Lock Screen Next-To-Do Prompt for Recurring Tasks Users set recurring
+scheduled tasks (ex: laundry, study block, clean desk, journaling). At the scheduled time, the
+
+-- 5 of 30 --
+
+phone lock screen shows the single next to-do, so the user does not have to open an app and
+figure out what to do.
+Rough Idea 5: Buddy system with photo or screenshot progress sharing (matching anonymous
+or with friends). Replaces self checked boxes with something a friend can actually see.
+Distinct idea 1: A home-screen widget prompts users to upload photo proof of completed tasks,
+send encouragement, track shared streaks, and set weekly goals with an accountability partner.
+The widget keeps accountability visible throughout the day.
+Distinct idea 2: A smartwatch or wearable device sends gentle buzzes as reminders, celebrates
+completed goals, and prompts users to check in with their accountability partner. Mutual
+progress updates help keep both users motivated.
+
+-- 6 of 30 --
+
+Distinct idea 3: A collaborative task board for roommates or dormmates where users move task
+cards from "To Do" to "Done." The board gamifies progress with shared goals, rewards, and
+encouragement, creating visible accountability within a shared living space.
+Rough Idea 6: Thought dumping tool for users to write down their worries and tasks occupying
+their mind. The system organizes them into categories (e.g., “do now,” “do later,” or “not
+important”)
+Distinct idea 1: A voice-based assistant allows students to verbally unload everything occupying
+their mind without needing to organize their thoughts first. The system analyzes their concerns
+and transforms them into clear next steps.
+
+-- 7 of 30 --
+
+Distinct idea 2: A physical object that helps students externalize and organize their thoughts by
+turning invisible mental clutter into a visible plan. Students can write down their worries on
+sticky notes or on paper and a mirror, wall display, or pin board can organize thoughts into
+categories like “Act Now,” “Plan for Later,” “”Release/Reframe”
+Rough Idea 7: Browser extension that connects to a music streaming platform and only plays
+when the user is active on their assigned task page. If they navigate away to a distracting site, the
+music immediately stops playing, warns them to go back to work, and plays a distinct timeout
+alert sound.
+Distinct idea 1: If the user navigates out from study tabs (bCourses, VS Code), the music starts
+to fade from its original volume down to zero. At the same time, a blur filter pops up over the
+non-academic website to block distracting content.
+
+-- 8 of 30 --
+
+Distinct idea 2: If the user navigates out from study tabs (bCourses, VS Code), the music starts
+to fade from its original volume down to zero with a pop-up window with motivational quotes
+for them to lock back in.
+Distinct idea 3: If the user navigates out from study tabs (bCourses, VS Code), the music starts
+to fade from its original volume down to zero. At the same time, a blur filter pops up over the
+non-academic website to block distracting content as well as a vibration on your phone as the
+extension is connected to Bluetooth.
+Rough Idea 8: Tiny first step generator on every task. Break a task down to one opener to start
+with.
+Distinct idea 1: The user interacts with a dedicated desktop assistant on their touchscreen laptop.
+They enter their massive task into a chat interface. The assistant immediately breaks it down,
+
+-- 9 of 30 --
+
+generating and displaying only one single, small sub-task at a time to serve as the opener. The
+user physically taps the touchscreen to check it off, which prompts the chat to reveal the next
+step.
+Distinct idea 2: The user wears AR glasses while working on their laptop. As they verbally
+explain concepts out loud and physically work through their first micro-steps, the AR glasses
+capture their audio and physical actions. The system automatically structures this into an
+AI-generated study summary that floats as a digital window right next to their real laptop screen,
+allowing them to look back at their progress and easily copy-paste the text directly into their
+main digital documents.
+Distinct idea 3: The user’s laptop webcam will monitor the workspace, and when a task is
+entered a small window pops up with the opener task and cycles through until the task is finished
+through computer vision as it lights up after every small step completion.
+
+-- 10 of 30 --
+
+Rough Idea 9: if- then rule builder that’s tied to a “danger window” where users identify their
+personal triggers and actions they can take to overcome them. for example: “if i start
+doomscrolling, i will set a 5-minute timer to reset”
+Distinct idea 1: Before beginning a task the user identifies their personal “danger window” and
+creates an if-then rule. For example “if I open Instagram while studying, then show me the one
+small action I should return to”. the system intervenes at the exact moment avoidance begins.
+Distinct idea 2: a smartwatch detects when the user leaves their workspace or becomes inactive
+during a planned focus session. It sends a gentle vibration and displays the user’s personally
+chosen reset action, such as “stand up, drink water, and return for just five minutes”
+Distinct idea 3: a browser extension detects when the user leaves their selected work tabs and
+enters a distracting website. Instead of completely blocking the site, it asks the user to choose
+between returning to work, taking an international 5 minute break, or ending the focus session.
+Sketches for the 3 ideas:
+Rough Idea 10: a 60 second text prompt where the user writes out all of their current academic
+and non-academic worries, such as rent, financial aid, relationships, or errands and temporarily
+stores them during the focus session to prevent distractions.
+Distinct idea 1: the user verbally speaks all their worries into their phone before they start the
+work, the system converts them into short cards and separates them into categories such as
+“handle today", " handle later”, and “outside my control”. only the current task remains visible
+during the work session.
+Distinct idea 2: before starting work, the user gets 60 seconds to type every unrelated worry
+currently occupying their mind. The worries disappear into a hidden “parking lot” during the
+focus session and return afterward so the user knows they have not been forgotten.
+Distinct idea 3: a physical/digital system where the user writes each worry on a sticky note and
+places it beneath a phone or tablet camera. The device digitally stores each concern and instructs
+the user to physically turn the sticky notes face down until the focus session ends, creating a
+visible ritual for temporarily setting anxieties aside.
+Sketches for idea 1 and 3:
+
+-- 11 of 30 --
+
+2. Funneling In
+Distinct realization 1: Turn distracting apps to gray-scale, and keep the essential apps in color.
+Users can select the apps that they think are distracting. The app button and interfaces of the rest
+of the apps keep colorful, but the longer the users stay on the distraction apps, the grayer the
+interfaces and the app buttons become.
+1. What makes this solution unique enough to be explored?
+Fixes the issue of sense of invasion and boredom of other discipline apps. It serves as a gentle
+and intelligent accountability partner 24/7 rather than a cold-hearted officer. This can attract and
+maintain more users because it’s not aggressive like other discipline apps to set a time or lock the
+app. So users will feel less irritated or intimidated by the function, so users will be less likely to
+give up on this anti-addiction journey. The color transitions make users feel more comfortable
+and can be a natural reminder of phone use. It can build longer and more stable relationships
+with users.
+2. What modalities are in-play here?
+Mobile App first (larger user base), might extend to Web later
+3. What are some pros and some cons for each of these?
+Pros are people don’t need to mentally prepare for any sudden app shut down. The grayscale is
+much more gradual than cold turkey quitting. People don’t need to learn anything to use this app,
+so the method can build relationships with a lot of users. Cons are people might build tolerance
+towards the grayscale.
+Distinct realization 2: Unified weekly, morning and night briefings that turn scattered
+responsibilities into a bounded daily plan.
+
+-- 12 of 30 --
+
+1. What makes this solution unique enough to be explored?
+It doesn’t add another to-do list. It pulls obligations already scattered across Gmail, Slack, and
+Calendar into one bounded plan and keeps narrowing the day down to a single next action,
+closing the loop from a morning briefing to a night reflection. That directly targets the “I feel like
+something is due” dread and the initiation gap our interviews surfaced, where the barrier was
+never information or planning, it was starting. Instead of requiring users to repeatedly check
+several platforms and remember scattered obligations, the system automatically consolidates
+them and helps the user turn them into a manageable daily plan.
+2. What modalities are in-play here?
+Mobile App, Web App, Audio. A mobile or web dashboard, integrations with Gmail, Slack, and
+Google Calendar, and optional phone notifications. Audio is included because a spoken morning
+briefing removes the “open and read on a screen” step on low-energy mornings where friction
+might be the highest.
+3. What are some pros and some cons for each of these?
+Consolidating Gmail, Slack, and Calendar into one bounded plan for the day, with a single next
+action directly targets the “something is due” anxiety dread/overwhelm and the initiation gap
+from our interviews, and it meets users in tools they already use daily. The con is that it needs
+broad account access and reliable due-date parsing which are both hard and privacy-sensitive.
+Distinct realization 3: Accountability Companions App, that allows users to set both personal
+and shared goals with their friends, track task progress, send encouragement, maintain shared
+streaks, and stay accountable. Through an optional AR mode, users can also study alongside a
+friend or accountability buddy in a shared virtual workspace, creating a stronger sense of
+co-presence while working.
+1. What makes this solution unique enough to be explored?
+AR Presence reimagines accountability through supportive co-presence. Users can share
+progress signals, emotional states, and requests for support from friends or accountability
+buddies. This creates accountability without shame, making it more accessible for users with
+ADHD and anxiety.
+2. What modalities are in-play here?
+Mobile Phone App, Widget, AR
+
+-- 13 of 30 --
+
+3. What are some pros and some cons for each of these?
+Shared progress and supportive co-presence creates accountability without shame, which fits
+users with ADHD who abandon high pressure systems, and the support request feature helps
+users at the low energy moments. The con is that it depends on the buddies reliably showing up
+and the user being comfortable with sharing their progress. Users with rejection sensitivity might
+fear being judged which can push them to avoid or quit the app.
+3. Concept Sketches with Pros and Cons
+Distinct realization 1: Grayscale distraction apps
+
+-- 14 of 30 --
+
+Pro 1: Fixed the issue of sense of invasion and boredom of other discipline apps. No sudden
+lock-down, minimal mentally preparation.
+Pro 2: Mobile apps, easy and clear navigation, and gentle transitions will attract and maintain
+broader users - both professionals and people who don’t go to school or desktop work.
+Pro 3: Minimal design and instant feedback - no complicated or excessive feedback or extra
+clicks to see the feedback, feedback is straightforward and easy to see.
+Pro 4: The visual change can motivate the users to stop passive doomscrolling, forming a
+healthier habit and improve the sharpness of the brain and memory in the long term. Decreasing
+passive scrolling improves cognition and brain function, allowing users to focus on their goals.
+Con 1: Some users might build tolerance to the grayscale and ignore it eventually.
+Con 2: Some users might delete the app or customize the distraction apps as essentials if they
+think it’s annoying.
+Con 3: A few apps can serve as both essential and distraction like Youtube videos and Youtube
+shorts, so it’s hard to categorize in some situations.
+Con 4: Users might feel uncomfortable sharing privacy with the app.
+Distinct realization 2: Unified weekly, morning and night briefings
+Pro 1: Reduces scattered information and reduces the stress of wondering whether something
+was forgotten, provides both weekly and daily views, combining obligations from Gmail, Slack
+and calendar, and manually added tasks into one place.Targets the “out of sight, out of mind”
+pattern in many ADHD individuals.
+
+-- 15 of 30 --
+
+Pro 2: Lowers initiation cost and limits daily cognitive overload. The system narrows a large
+weekly workload into three priorities and one immediate next action like (“next: open vscode”),
+which matches the finding that the gap was starting, not planning.
+Pro 3: Offers multiple ways to engage. Users can access the briefing through a mobile app, web
+dashboard, audio summary or lock screen/smart glass notification.
+Pro 4: Meets users where they already are. It pulls from tools they live in and use already, and
+closes the full daily loop. Morning to midday to night with rollover means unfinished work
+carries forward, so users never face a blank restart.
+Con 1:The briefing could become overwhelming if it imports too much information.
+Con 2: Connecting private accounts may raise privacy concerns. Users may be uncomfortable
+giving the system access to email, messages, calendars, and personal tasks.
+Con 3: Automatic task detection may make mistakes and be inaccurate. The system could miss
+an obligation or misunderstand a message and identify something irrelevant as a task.
+Con 4: It requires setup and continued maintenance: Users must connect accounts, review
+imported information, and correct the plan when schedules change.
+Distinct realization 3: Buddy system for Accountability
+
+-- 16 of 30 --
+
+Pro 1: Encourages consistent focus through gentle accountability rather than pressure, reducing
+the shame that often causes people with ADHD and anxiety to abandon productivity systems.
+Pro 2: Creates a sense of co-presence by allowing friends to focus together remotely, helping
+users feel supported without requiring constant messaging or video calls
+Pro 3: Breaks overwhelming tasks into micro-steps and celebrates progress instead of perfect
+streaks, making it easier for users to recover after setbacks and maintain long-term engagement
+Pro 4: Encourages individual and share goal setting as well as check ins with friends
+Con 1: As users check their progress or log their tasks, they may become distracted by social
+media, games, or other distractions on their phone
+Con 2: Relies on other people to act as an “accountability buddies” to pull user out of a
+low-energy state
+Con 3: Setting up shared weekly goals and aligning calendars can require a lot of upfront
+cognitive investment that can make it too overwhelming to start
+Con 4: Uploading or checking off tasks is a very tedious process. Rejection sensitive dysphoria
+can be a major blocker; fear of judgement from other users may lead them to abandon the app
+entirely
+4. Final Design Selection
+
+-- 17 of 30 --
+
+We chose Unified Briefings (Distinct Realization 2 from Step 3) because the idea targets the
+actual barrier our interviews surfaced which is initiation and cognitive overload, not information
+or planning. One participant had every prerequisite ready for a year (number found, script
+written, insurance card saved) and still couldn’t begin because the task had no bounded start or
+end. By pulling scattered obligations from Gmail, Slack, and Calendar into one plan and
+narrowing each day to a single tiny next action, this design gives open-ended tasks the edges that
+make starting possible, meets people in tools they already use, and closes the loop from morning
+to night with rollover so no one opens a blank page. This also prevents the analysis paralysis of
+having too many things to do so you don’t know where to start. The other two realizations solve
+narrower problems: grayscale apps address distraction, but our participant was clear that “it’s not
+just distraction, it’s that you don’t want to do it,” and the buddy system leans on social
+accountability, which risks the shame and rejection sensitivity that make ADHD and anxiety
+users abandon systems in the first place.
+5. User Tasks
+1) Plan today from scattered inputs. Start briefing and gather tasks from
+Gmail/Slack/Calendar. Goal: go from “something’s due somewhere at some time” to a
+locked top 3 or today, each with a first step. Success: 3 missions chosen, each showing
+one tiny next step.
+2) Start the next action. Goal: find and begin the single smallest next step for the priority
+task, without having to decide what to do. Success: user starts the opener.
+3) Close out the day and roll over. Goal: log a quick mood, energy, and care check, mark
+what got done, carry unfinished work forward. Success: reflection saved, unfinished tasks
+appear in tomorrow's plan.
+6. Paper Prototypes
+Prototype A: Stepped briefing and dashboard with structured screens, one decision per screen.
+Interface. A mobile app with one main full-screen view per stage of the day. Each screen is a
+dense, scannable surface: the weekly briefing shows source tags (mail, slack, calendar) above a
+day-grouped list of obligations, the morning briefing groups today’s items into due, calendar, and
+carried-over sections, pick-top-3 is a selectable list, today’s missions shows the three chosen
+tasks each with a tiny next step, and night reflection combines mood and energy dot-scales, care
+anchors, a done count, and a tomorrow list. Everything on a screen is visible at once, and the user
+reads and taps directly.
+Navigation flow. Linear and forward-moving, screen to screen: This Week → Morning Briefing
+→ Pick top 3 → Today’s 3 Missions → Timer → Night Briefing & Reflection.
+
+-- 18 of 30 --
+
+Task 1 flow:
+1. Open app, land on This Week, items auto-pulled from Gmail/Slack/Calendar grouped by
+day.
+2. Continue to “Start Morning Briefing” pull items/tasks due today, calendar, carried-over,
+plus Add Custom for anything not in email/calendar.
+3. Continue to Pick top 3, tap 3 items, unpicked ones get a rollover-to-later option.
+4. Tap “Lock in my three.”
+5. Land on Today’s 3 Missions, each with a tiny next step.
+Task 2 flow:
+1. On Today’s 3 Missions, the top mission shows it’s “next: open vscode.”
+2. Tap the mission to expand its next step and Start.
+3. Begin (timer or just the opener).
+4. Mark done.
+Task 3 flow:
+1. Evening notification or open, go to Night Briefing & Reflection.
+2. Tap a mood dot, tap an energy dot.
+3. Confirm care anchors (sleep, steps, ate, water).
+4. See “done today: 2 of 3,” check off completed.
+5. Review Tomorrow (unfinished auto-rolled), adjust.
+6. Tap “Save + plan tomorrow.”
+
+-- 19 of 30 --
+
+Prototype B: Conversational co-pilot.
+Interface. Voice companion, delivers briefings as a conversational chat thread with quick-reply
+chips and audio, so planning feels like just answering a few messages.
+Navigation flow. A single scrolling chat thread with audio assistant, rather than a sequence of
+screens.
+Task 1 flow:
+1. Open app / wear smart glasses, assistant starts a conversational morning briefing greeting
+“Good Morning John” with a ▶ audio option, telling you the tasks due today and
+optionally news headlines.
+2. Tap [plan my day] (or ▶ to listen while doing something else).
+3. The assistant posts the surfaced items as chips “tap 3 to focus on, suggested top 3.” Tap 3,
+or confirm/swap top 3 by voice.
+4. Tap [lock in 3] or confirm by voice.
+5. Assistant replies with the 3, each with a tiny suggested opener.
+Task 2 flow:
+1. Assistant: “next up: CS160 PA#2, just open VSCode. start?” with [start 5 min] / [later].
+
+-- 20 of 30 --
+
+2. Tap [start 5 min].
+3. Assistant: “timer’s going, back in 5.” On done, no sound, just “continue with [next step]
+or schedule 4 later”
+Task 3 flow:
+1. Evening, assistant: “how’d today go?” with mood and energy dots.
+2. You answer mood and energy verbally (“meh, low energy”) or tap a mood/energy dot.
+3. Assistant: “you did 2 of 3. roll ‘essay draft’ to tomorrow?” with [yes] / [no].
+4. Tap/Say [yes]. Assistant: “Tomorrow’s set. one line about today?” (optional
+mini-journal).
+How they differ
+The main difference between the two prototypes is how users interact with the system and who
+drives the experience. Prototype A is a sequence of dedicated screens where information is
+grouped by stage (weekly overview, morning briefing, task selection, today’s mission, and night
+reflection). Users are given free navigation as they move between pages, selecting items from
+lists, and tapping buttons to progress through the workflow. By emphasizing visual organization,
+this prototype allows for greater sense of control over the information but can have a higher risk
+of an overwhelming interface.
+Prototype B replaces these screens with a single conversational interface. Instead of displaying
+all information at once, the assistant introduces one decision at a time through a chat thread using
+text, quick-reply chips, optional voice input, and audio playback. Rather than navigating between
+pages, users respond to prompts as the conversation progresses. This format is intended to
+
+-- 21 of 30 --
+
+decrease an overwhelming experience and make audio and the reflection feel natural, at the cost
+of feeling slower or more hand-holding.
+7. Testing and Evaluation:
+Interview Protocol
+Estimated total session length: 10 minutes
+Session Overview & Timing
+Section 	Time 	Goal
+Introduction 	1 mins 	Set expectations, sign consent form, and explain the
+“think-aloud” process.
+Ease-In and Transition 	1 min 	Get a brief participant self-introduction and ask the
+needfinding question.
+Core User Interaction 	3-5 mins 	User tests the prototype
+Feedback and Wrap-up 	5 mins 	Gather feedback and positive/negative findings
+1) Introduction (2 minutes):
+Script to read aloud (adapt as needed):
+“Hi, thanks for chatting with us today! We're students in a design class building a tool to help people
+manage stress, procrastination, and workspace habits.
+After doing previous interviews and taking in feedback of what they have tried, we have created a rough
+paper prototype that addresses issues they brought up. This means that we will provide you with this
+prototype to interact and then at the end, we would like to see what you think this prototype is used for.
+This should take at most 10 minutes and there’s no right way to interact, because we want to observe what
+your approach is. Is it okay if we take notes and record your hands as you use the paper? Everything stays
+private to our team, and you can be completely honest. Feel free to give any positive or negative
+feedback! Our goal is to make the optimal experiences for users :) Any questions before we start?”
+Get verbal consent to record and take notes.
+Remind them that we are testing our design, not them.
+Confirm they have about 10 minutes available in case they need to leave early.
+2) Ease-In and Transition (2 minutes):
+● What do you do?
+● Why bring you here this summer?
+3) Core User Interaction
+● Provide them with prototype
+● Ask them to complete each task while thinking aloud
+
+-- 22 of 30 --
+
+● Observe without leading them unless they become stuck
+● Note their hand movements, gestures, and comments they make while thinking aloud
+4) Wrap-up (5 min)
+“Congrats! You have finished all the tasks!”
+● What do you think our app is trying to help people do?
+● What parts of this experience did you like the most? Was there anything that felt confusing or
+difficult?
+● If you could change one thing, what would it be?
+● Any additional feedback?
+“Thank you for your time!”
+Team Roles
+● Testing Group 1
+○ Sampurn Bhowmick: created paper prototype A, interviewed participants, took
+notes
+○ Na Mi Kim: recruited participants, recorded interview
+● Testing Group 2
+○ Madison Lee: created paper prototype B, recorded interview
+○ Thanbinh Nguyen: created interview protocol, recorded interview, took notes
+○ Reed Yalouh: recruited participants, took notes
+Prototype A:
+Participant 1 – Prototype A: A recent graduate with a master’s degree in journalism and
+filmmaking who has to keep going between his notebook, laptop, and phone, so often feels
+overwhelmed and scattered.
+
+-- 23 of 30 --
+
+Positive findings:
+1. He really liked the idea of consolidating every key information/deadline in one place
+which prevents anxiety by avoiding the back and forth from different platforms. This
+directly addressed the scattered, multi-device juggling he described at the start.
+2. He liked the night reflection at the end of the day, which allows him to review what has
+been completed and plan what to do tomorrow. The rollover also supported his memory,
+letting him see what he finished and carry unfinished work into tomorrow.
+3. Focus sprint which allows to break down bigger tasks into smaller pieces, decreasing the
+sense of overwhelm and anxiety of facing everything in the beginning.
+Negative findings:
+1. (Rating - 2) Focus sprint timer can be added with automatic “Do not Disturb” mode to
+silence other notifications, so it isn’t cut by interruptions.
+2. (Rating - 4) The flow felt complicated on first use, and he wasn’t sure what he was
+supposed to do.
+3. (Rating - 4) Today’s tasks show no specific due time, and not everything is due at
+11:59pm, so he couldn’t tell what was actually time-sensitive earlier in the day. Lack of
+urgency and information about the tasks to be completed.
+Additional Feedback:
+- Users hope to schedule with notification, location and time.
+- He prefers to see today’s tasks page first when opening the app.
+- Users emphasized the need for urgency when it comes to the deadline, suggesting adding
+alerts before the due time.
+Participant 2 – Prototype A: An undergraduate student at San Diego State University studying
+public health, who struggles with minor focus and doomscrolling issues.
+
+-- 24 of 30 --
+
+Positive findings:
+1. She liked the color and visual design, and the idea of seeing everything laid out in one
+list.
+2. The only three tasks displayed on the screen makes the overall day more manageable.
+3. Focus sprint timer can minimize the distraction, and can be used for self-pacing.
+Negative findings:
+1. (Rating - 3) Mood and Energy tracking felt irrelevant to her, since she would use the app
+purely to focus on work rather than to track feelings.
+2. (Rating - 1) Gmail and Calendar were the main integrations that matter to her; she doesn’t
+use Slack, so that connection is unnecessarily shown.
+3. (Rating - 3) She didn’t know exactly what to press at the start.
+Participant 3 – Prototype A: A recent Cal graduate in MCB and Economics, who likes to
+organize but procrastinates anyway. She traces her problems to perfectionism and delayed
+gratification, “no satisfaction until an assignment is submitted, which makes starting hard.” The
+“perfect” plan causes her to struggle with initiation, leading to procrastination. In her words,
+“Once I start I will finish,” so the main issue in working is initiation.
+
+-- 25 of 30 --
+
+Positive findings:
+1. As she values organization, she found it satisfying to begin the day with a morning
+briefing with all the important information and deadlines of the day.
+2. Display of only 3 tasks motivates her to initiate more easily rather than facing a big load
+of tasks. The flexibility of adjusting the number of tasks to do depending on the energy
+makes her feel less constrained. It helped her prioritize and turn “daunting tasks into
+manageable tasks.” Because she works in bursts and finds sitting down to start the
+hardest part, picking three eased the initiation, and she said “three is a very intuitive
+number to keep things manageable.”
+3. The overall selection flow felt intuitive and the buttons with bold font made it clear what
+was tappable.
+Negative findings:
+1. (Rating - 3) The “Pick 3” and “Today’s 3 mission” screens look too similar. Making them
+more visually different would add clarity and make the app more engaging to use.
+2. (Rating - 2) The Gmail icon looks clickable, but it doesn’t pull out the Gmail specific
+information when you click it.
+3. (Rating-4) The user is not interested in mood and energy tracking.
+Additional Feedback:
+- The Pomodoro-style timer is a good idea, but add a reminder with a visual cue when five
+minutes are left.
+Prototype B:
+Participant 4 – Prototype B: UC Berkeley upper-division CS course TA and current PhD
+student, who has used other agents, like ChatGPT to help break down tasks to smaller ones.
+
+-- 26 of 30 --
+
+Positive findings:
+1. It improves time management and makes priorities clear.
+2. It helps to break down tasks into smaller, more manageable parts.
+3. Copilot nature allows personalization (thought that this would be helpful to anyone, not
+just if you have concentration/mental issues).
+Negative findings:
+1. (Rating - 3): user mentioned already using an agent to manage their current task and
+priorities. So there might not be a reason to get another app if the current workflow is set
+2. (Rating - 4): maintenance burden, having to manage things that’s supposed to fix
+management can be burdensome
+3. (Rating - 3): the copilot nature of it could introduce an issue in finding it hard to separate
+work-life boundaries
+Participant 5 – Prototype B: 3rd year architecture student at UC Berkeley, who likes to do most
+of her planning through Google Calendar, as it can be taken and opened anywhere.
+
+-- 27 of 30 --
+
+Positive findings:
+1. Thought that it would be really helpful for reducing forgotten tasks.
+2. Thought that would help to lessen the mental load, everything in one place makes things
+feel more in control.
+3. More organized and structured, which helps folks who struggle with that.
+Negative findings:
+1. (Rating - 3): the size of text and information – need smarter management/breakdown
+that’s specific to nature of task (information overload)
+2. (Rating - 3): the user gets stuck in over planning instead of just tackling the tasks
+3. (Rating - 2): Unsure about the reflection scaling (i.e mood, energy)
+Participant 6 – Prototype B: 4th year visiting CS student, who has a friend taking CS160 so
+was aware that these interviews are happening.
+Positive findings:
+1. The text was clear and intuitive to follow.
+2. The sequencing of chats made it clear that outputs are shaped by the user's requests.
+3. He appreciated that the straightforward and centralized nature of the solution was geared
+towards folks dealing with mental health struggles that impede their ability to plan and
+keep track of things.
+Negative findings:
+1. (Rating - 3): he thought that the fonts were smaller than they should be. (he points at the
+last screen, “I’m sorry what does that say one-line?”).
+2. (Rating - 4): information overload–putting everything they have due in one place can
+make it intimidating.
+3. (Rating- 3 ): notification fatigue–different platforms/apps feeding into one central one
+could become a source of interruption.
+
+-- 28 of 30 --
+
+8. Analysis & Reflection
+Major patterns:
+Prototype A (App Briefing dashboard):
+● Users praised the surface and its visual design.
+● They liked seeing everything laid out, and the top-three framing that narrows the day.
+● The wins clustered on helping with initiation and consolidation, with the strongest
+response from the tester whose core struggle is starting.
+● The problems were mainly on two things: users didn’t know where to begin, and the
+day’s tasks lacked specific times.
+● Mood and energy tracking was a recurring unwanted feature.
+Prototype B (Conversational Co-Pilot).
+● Users like the idea of starting from small first.
+● Maintenance burden concern
+● Information Overload
+● Not competitive enough to encourage users to prioritize this method over their current
+methods
+Common Patterns: Across both, the core idea (consolidate scattered obligations, narrow to a next
+action) consistently landed, while the failure modes were about how much the app shows and
+asks. Users value simplicity and easy navigation while under the circumstances of dealing with
+tasks.
+Success:
+1. Consolidation. Putting multiple scattered obligations/tasks into one place was appreciated
+by nearly everyone (P1, P2, P5, P6), and directly answered the overwhelm with
+multi-device and “something is due” scatter anxiety.
+2. Only 3 tasks to begin with at one time. Building more confidence and less anxious
+overthinking rather than seeing the whole big tasks in front of them. (P1, P2, P3, P4)
+3. Focus sprint. Getting in the mood without thinking too much. (P1, P2, P3)
+4. Rollover tasks. Carrying unfinished tasks to tomorrow automatically helps memory and
+reduces forgotten task anxiety (P1, P5).
+5. Tiny next steps. Breaking work into a small next action was said to be helpful in making
+daunting tasks manageable (P3, P4).
+6. Clarity of the copilot chat flow. The chat sequencing made it clear that outputs follow the
+user’s input (P4, P6), and users noted that it would help anyone, not only people with
+focus struggles.
+
+-- 29 of 30 --
+
+Common usability issues:
+1. Start confusion/ambiguity. P1 (“what am I supposed to do”), P2 (“not sure what to
+press”), P3 (start ambiguity).
+2. Timer gaps, minor but a recurring request. P1 and P3 wanted do-not-disturb, notification
+control, and a visual cue at five minutes left.
+3. Mood and Energy tracking not wanted, moderate and recurring (P2, P3, P5). Focus-only
+users did not want to track feelings.
+4. No due time within today (P1).
+5. Pick 3 and Today’s 3 missions look alike (P3).
+6. False affordances with buttons, minor. P3 pressed the Gmail icon in the weekly overview
+screen expecting Gmail-specific tasks, because the source icon reads as a button.
+7. Text/handwriting was small, so clarifications was asked (P5, P6)
+8. Burden of adjusting the task plan (P4, P5)
+Planned changes for next iteration:
+1. Fix the entry point. Open on today’s morning briefing screen by default (P1).
+2. Add a guided first run for better affordance, and make one obvious “start here” action.
+3. Make the gmail/calendar/slack connections into buttons that show specific information
+from those platforms.
+4. Remove mood and energy tracking or make it optional. Add trends related to sleep,
+movement and tasks completed, so the health tracking in the reflection screen feels
+useful.
+5. Differentiate the two selection screens (Pick 3 vs Today’s 3 Missions) visually, or
+improve the flow to make it more intuitive.
+6. Add time to tasks. Per-task due times, scheduling with time and optional location, and
+alerts before the deadline.
+7. Add an option to zoom in and out with text in the conversational co-pilot, and add a
+pause and rest option.
+8. Personalize integrations to what the users actually use. P2 doesn’t use Slack, so showing
+a slack logo on the main screen was unnecessary information.
+
+-- 30 of 30 --
+
