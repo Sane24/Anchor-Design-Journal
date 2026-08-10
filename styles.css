@@ -184,7 +184,8 @@ a:hover { color: #333A26; }
 
 .style-083 { font-size: 14px; line-height: 1.55; margin: 16px 0 0; color: #B7C0A4; }
 
-.style-084 { flex: 1 1 340px; min-width: 270px; max-width: 480px; object-fit: contain; background: #FFFFFF; border: 1px solid #EDE8D8; border-radius: 12px; box-sizing: border-box; cursor: zoom-in; }
+.style-084 { flex: 1 1 340px; min-width: 270px; max-width: 480px; display: grid; gap: 1px; overflow: hidden; background: #EDE8D8; border: 1px solid #EDE8D8; border-radius: 12px; box-sizing: border-box; }
+.style-084 img { display: block; width: 100%; height: auto; background: #FFFFFF; cursor: zoom-in; }
 
 .style-085 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 26px; margin: 36px 0 0; align-items: start; }
 
