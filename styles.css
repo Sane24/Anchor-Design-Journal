@@ -130,7 +130,8 @@ a:hover { color: #333A26; }
 .style-053 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 20px; /* shrink from whatever it currently is, e.g. 32px */
+  gap: 32px;        /* up from 20px, more breathing room between columns */
+  margin-top: 56px;  /* pushes the whole row down, away from photo captions */
 }
 
 .style-054 { border-top: 2px solid #40502A; padding: 16px 4px 0; }
@@ -360,8 +361,8 @@ a:hover { color: #333A26; }
 
 .style-166 {
   display: block;
-  font-size: 22px;
-  margin-bottom: 8px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .hover-005:hover { color: #FDFBF2; }
