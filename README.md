@@ -23,9 +23,11 @@ We developed Anchor over six weeks through an iterative, team-based process:
 - The Garden and Reflection experiences received the warmest reactions, but participants often discovered them late or only after prompting.
 - Participants valued the constrained three-task plan and visible progress, while asking for more calendar context, clearer Google integration feedback, and more control over task editing and timer behavior.
 
+These results describe a formative usability study, not a longitudinal measure of behavior change. Five participants completed guided scenarios in 30–45 minute sessions, so the evaluation identifies first-use interface strengths and breakdowns but does not yet establish that Anchor reduces procrastination, stress, or task abandonment over time. A broader field study would be needed to evaluate sustained real-world impact.
+
 ## Technology
 
-The Anchor app is a React 18 single-page application built with Vite and React Router and deployed on GitHub Pages. It uses Supabase for authentication, synchronization, and row-level security; `localStorage` provides an offline-first experience. Read-only Google Calendar and Gmail integrations use Google OAuth with PKCE. The design journal in this repository is a static HTML, CSS, and JavaScript site.
+The Anchor app is a React 18 single-page application built with Vite and React Router and deployed on GitHub Pages. It uses Supabase for authentication, synchronization, and row-level security; `localStorage` provides an offline-first experience that works without an account. Read-only Google Calendar and Gmail integrations use Google OAuth with PKCE, and Gmail task candidates exclude Promotions and Social. Because OAuth and token handling are entirely client-side, the current architecture is appropriate for a course prototype but would require a dedicated security review before broader deployment. The design journal in this repository is a static HTML, CSS, and JavaScript site.
 
 ## Team Hi-Five Senses
 

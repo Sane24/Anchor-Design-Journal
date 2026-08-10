@@ -249,7 +249,7 @@
       <strong class="style-015">
        initiation and overwhelm
       </strong>
-      , and no productivity tool they used did anything about either. And while we designed for people at the sharp end of this problem, anyone who has stared at a full inbox knows the feeling: designing for extreme users also means helping a much more general audience.
+      . The tools participants already used helped them organize work, but rarely lowered the barrier to beginning it. We designed for people at the sharp end of this problem, with the hypothesis that these needs could also inform tools for anyone facing an overloaded day.
      </p>
     </div>
     <div class="style-043">
@@ -314,6 +314,14 @@
       </strong>
       <p class="style-056">
        Fake deadlines (“I’ll call at three”), a brother sitting beside them, rewards gated behind chores.
+      </p>
+     </div>
+     <div class="style-054">
+      <strong class="style-055">
+       Ambiguity amplifies stress.
+      </strong>
+      <p class="style-056">
+       Large, unstructured assignments created more overwhelm than work with a visible starting point.
       </p>
      </div>
     </div>
@@ -610,6 +618,9 @@
       </strong>
       Consolidation, three tasks, and the tiny first step all landed with testers. But they also flagged an ambiguous starting point, mood tracking nobody asked for, and buttons that looked tappable but weren’t. Into the next round: open on today’s briefing by default, make wellness tracking optional, and attach times to tasks.
      </p>
+     <p class="style-100">
+      One lesson remained unresolved: paper-prototype testers already asked for a guided first run, but the shipped evaluation later surfaced the same onboarding problem again. Identifying a usability issue did not guarantee that it made it into the next build.
+     </p>
     </div>
    </section>
    <div class="style-058">
@@ -761,6 +772,9 @@
      </h2>
      <p class="style-042">
       Anchor shipped as a React 18 single-page app on GitHub Pages: Supabase for accounts and sync, an offline-first data layer (usable without signing in), and read-only Google Calendar and Gmail access that feeds the morning briefing. Gmail is deliberately filtered down to task-like mail, since surfacing a whole inbox would add to the exact noise the app is meant to cut.
+     </p>
+     <p class="style-042">
+      Privacy shaped the implementation as well as the interface. Google access is read-only, Gmail candidates exclude Promotions and Social, and the app remains usable without an account through local storage. Signed-in data syncs through Supabase, where row-level security limits each user to their own records. Because OAuth and token handling happen entirely in the browser, this client-only architecture is practical for a course prototype but would require a dedicated security review before broader deployment.
      </p>
     </div>
     <div class="style-116">
@@ -1050,12 +1064,26 @@
        A guided first run that walks the whole daily loop once with sample content. The app already makes sense on second use, so the goal is to deliver that second-run experience the first time.
       </li>
       <li>
+       Familiar, action-oriented labels such as “Choose 3 tasks” and “Start a 5-minute focus session,” keeping Anchor as the product name rather than requiring users to learn new interface vocabulary.
+      </li>
+      <li>
+       Reversible, confirmed actions: an early-finish and exit control for the timer, editable task states, visible completion feedback, and undo after clearing tasks.
+      </li>
+      <li>
        Optional sound and vibration when a sprint ends, plus morning and evening notifications that open the briefing and reflection directly.
       </li>
       <li>
        Due dates on task rows, editable in place, with missed deadlines rolled forward as overdue instead of disappearing.
       </li>
      </ol>
+    </div>
+    <div class="style-146">
+     <h3 class="style-108">
+      What this evaluation cannot tell us yet
+     </h3>
+     <p class="style-109">
+      This was a formative usability study with five participants completing guided scenarios in 30–45 minute sessions. It shows where the interface helps or blocks first-time use; it does not yet demonstrate that Anchor reduces procrastination, stress, or task abandonment over time. Our samples across the project were small convenience samples, Google OAuth testing was limited to approved accounts, and a timezone edge case remained open at evaluation. A longitudinal field study with a broader participant group is the next step for testing real-world impact.
+     </p>
     </div>
    </section>
    <div class="style-058">
@@ -1072,8 +1100,11 @@
       07 · Future work
      </div>
      <h2 class="style-041">
-      Where Anchor goes next
+      Longer-horizon explorations
      </h2>
+     <p class="style-042">
+      After addressing the immediate usability findings above, we would explore ways for Anchor’s briefings and next-step prompts to reach people without requiring another deliberate app check.
+     </p>
     </div>
     <figure class="style-148">
      <img alt="Smart glasses showing a briefing card in the lens" class="style-149" data-zoom="1" src="site-assets/glasses.png"/>
@@ -1183,4 +1214,3 @@
   </main>
  </body>
 </html>
-
